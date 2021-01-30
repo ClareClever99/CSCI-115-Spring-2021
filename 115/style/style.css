@@ -1,0 +1,49 @@
+/* html */
+html {
+  background-color: rgba(134, 15, 136, 0.5);
+}
+
+/* ht */
+h2 {
+  color: #002171;
+  font-family: Georgia, serif;
+}
+
+/* dt */
+dt {
+  color: #1976d2;
+  font-weight: bold;
+}
+
+/* footer */
+footer {
+  font-size: 0.7em;
+  font-style: italic;
+  text-align: center;
+}
+
+/* body */
+body {
+  font-family: Verdana, Arial, sans-serif;
+}
+
+/* email class */
+.email {
+  font-family: "Courier New", Courier, monospace;
+  font-style: italic;
+}
+
+/* wrapper */
+#wrapper {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* ul & ol */
+ul,
+ol {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: large;
+  line-height: 150%;
+}
