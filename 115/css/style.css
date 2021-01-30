@@ -48,3 +48,12 @@ ol {
   font-size: large;
   line-height: 150%;
 }
+
+nav {
+  background-color: purple;
+}
+
+.topNav {
+  font-weight: bold;
+  color: white;
+}
