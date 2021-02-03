@@ -64,3 +64,9 @@ footer {
 h3 {
   font-family: Georgia, serif;
 }
+
+main {
+  padding-left: 2em;
+  padding-right: 2em;
+  display: block;
+}
