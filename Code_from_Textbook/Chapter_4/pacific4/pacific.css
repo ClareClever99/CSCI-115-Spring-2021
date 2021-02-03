@@ -10,6 +10,10 @@ header {
   background-color: #002171;
   color: #ffffff;
   font-family: Georgia, serif;
+  background-image: url(/Code_from_Textbook/Chapter_4/pacific4/images/sunset.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
+  height: 72px;
 }
 
 h1 {
