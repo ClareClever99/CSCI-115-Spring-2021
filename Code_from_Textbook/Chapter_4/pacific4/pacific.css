@@ -23,7 +23,10 @@ h1 {
 
 nav {
   font-weight: bold;
-  background-color: #bbdefb;
+  padding-top: 0.5em;
+  padding-right: 0.5em;
+  padding-bottom: 0.5em;
+  text-align: center;
 }
 
 h2 {
