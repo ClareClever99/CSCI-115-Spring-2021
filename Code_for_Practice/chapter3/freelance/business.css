@@ -1,18 +1,55 @@
+body {
+  background-color: navy;
+}
+
+#wrapper {
+  background-color: ghostwhite;
+  width: 80%;
+  max-width: 1100px;
+  min-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 header {
-  background-color: darkcyan;
+  background-color: #189ec4;
   font-family: "arial black", verdana, sans-serif;
   height: 140px;
+  text-align: center;
 }
 
 footer {
-  background-color: darkcyan;
+  background-color: #219cc4;
   font-size: 0.9em;
+  padding: 0.1em;
+  text-align: center;
 }
 
 h2,
 h3,
 h4 {
-  color: cadetblue;
+  color: #219cc4;
   font-family: "times new roman", georgia, serif;
   font-style: italic;
+}
+
+nav {
+  color: #789dba;
+  background-color: #c01819;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: ghostwhite;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.floatpic {
+  float: right;
+}
+
+main {
+  padding: 1em;
 }
