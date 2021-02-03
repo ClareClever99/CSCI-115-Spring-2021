@@ -60,3 +60,7 @@ footer {
   max-width: 2048;
   box-shadow: 5px 5px 5px #333;
 }
+
+h3 {
+  font-family: Georgia, serif;
+}
