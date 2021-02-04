@@ -41,6 +41,12 @@ body {
   background-color: rgba(134, 15, 136, 0.15);
 }
 
+/* top nav */
+#topNav {
+  font-weight: bold;
+  color: white;
+}
+
 /* ul & ol */
 ul,
 ol {
@@ -51,9 +57,4 @@ ol {
 
 nav {
   background-color: purple;
-}
-
-.topNav {
-  font-weight: bold;
-  color: white;
 }
