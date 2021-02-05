@@ -40,8 +40,6 @@ body {
   margin-right: auto;
   margin-left: auto;
   background-color: rgba(134, 15, 136, 0.15);
-  padding-left: 1em;
-  padding-right: 1em;
 }
 
 /* top nav item */
@@ -62,4 +60,9 @@ ol {
 
 nav {
   background-color: purple;
+}
+
+main {
+  padding-left: 1em;
+  padding-right: 1em;
 }
