@@ -20,7 +20,7 @@ footer {
   font-size: 0.7em;
   font-style: italic;
   text-align: center;
-  padding: 10px;
+  padding: 1em;
 }
 
 /* body */
@@ -40,6 +40,8 @@ body {
   margin-right: auto;
   margin-left: auto;
   background-color: rgba(134, 15, 136, 0.15);
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 /* top nav item */
@@ -47,6 +49,7 @@ body {
   font-weight: bold;
   color: white;
   text-decoration: none;
+  padding-left: 1em;
 }
 
 /* ul & ol */
