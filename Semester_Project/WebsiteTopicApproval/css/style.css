@@ -54,3 +54,10 @@ header h1 {
   float: right;
   padding-right: 1em;
 }
+
+header h3 {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  letter-spacing: 0.15em;
+}
