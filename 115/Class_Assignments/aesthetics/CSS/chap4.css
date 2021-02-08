@@ -40,9 +40,8 @@ h2 {
 }
 
 #wrapper {
-  width: 1000px;
-  margin-right: auto;
-  margin-left: auto;
+  width: 980px;
+  margin: auto;
   background-color: #2dd881;
   box-shadow: 5px 5px 5px #333;
   padding: 1em;
