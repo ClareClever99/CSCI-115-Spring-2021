@@ -66,3 +66,10 @@ main {
   padding-left: 1em;
   padding-right: 1em;
 }
+
+dt {
+  color: #002171;
+  font-family: Georgia, serif;
+  font-size: 1.5em;
+  line-height: 2em;
+}
