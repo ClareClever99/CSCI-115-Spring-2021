@@ -16,6 +16,7 @@ footer {
   font-style: italic;
   text-align: center;
   padding: 1em;
+  clear: both;
 }
 
 body {
@@ -38,12 +39,17 @@ h2 {
 }
 
 #heropic {
+  clear: both;
 }
 
 #leftcol {
+  width: 440px;
+  float: left;
 }
 
 #rightcol {
+  width: 440px;
+  float: right;
 }
 
 #wrapper {
