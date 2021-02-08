@@ -10,7 +10,7 @@ header {
   background-color: #002171;
   color: #ffffff;
   font-family: Georgia, serif;
-  background-image: url(/Code_from_Textbook/Chapter_4/pacific4/images/sunset.jpg);
+  background-image: url(/115/Textbook_Assignments/chapter4/pacific4/images/sunset.jpg);
   background-position: right;
   background-repeat: no-repeat;
   height: 72px;
@@ -74,21 +74,21 @@ main {
 #homehero {
   background-repeat: no-repeat;
   height: 300px;
-  background-image: url(/Code_from_Textbook/Chapter_4/pacific4/images/coast.jpg);
+  background-image: url(/115/Textbook_Assignments/chapter4/pacific4/images/coast.jpg);
   background-size: 100% 100%;
 }
 
 #yurthero {
   background-repeat: no-repeat;
   height: 300px;
-  background-image: url(/Code_from_Textbook/Chapter_4/pacific4/images/yurt.jpg);
+  background-image: url(/115/Textbook_Assignments/chapter4/pacific4/images/yurt.jpg);
   background-size: 100% 100%;
 }
 
 #trailhero {
   background-repeat: no-repeat;
   height: 300px;
-  background-image: url(/Code_from_Textbook/Chapter_4/pacific4/images/trail.jpg);
+  background-image: url(/115/Textbook_Assignments/chapter4/pacific4/images/trail.jpg);
   background-size: 100% 100%;
 }
 
