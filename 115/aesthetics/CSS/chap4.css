@@ -1,0 +1,32 @@
+/* 
+############
+Color Scheme
+############
+
+#1C0B19 - Xiketic
+#140D4F - Midnight Blue
+#4EA699 - Polished Pine
+#2DD881 - Emerald
+#6FEDB7 - Medium Aquamarine
+
+*/
+
+footer {
+  font-size: 0.7em;
+  font-style: italic;
+  text-align: center;
+  padding: 1em;
+}
+
+body {
+  background-color: #6fedb7;
+}
+
+#heropic {
+}
+
+#leftcol {
+}
+
+#rightcol {
+}
