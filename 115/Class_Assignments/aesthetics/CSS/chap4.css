@@ -11,6 +11,9 @@ Color Scheme
 
 */
 
+/* Import Statements */
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500&display=swap");
+
 footer {
   font-size: 0.7em;
   font-style: italic;
@@ -27,6 +30,8 @@ h1 {
   color: #140d4f;
   width: 420px;
   float: left;
+  font-family: "Big Shoulders Display", cursive;
+  letter-spacing: 0.25em;
 }
 
 nav {
