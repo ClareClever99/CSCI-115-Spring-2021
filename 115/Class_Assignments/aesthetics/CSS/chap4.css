@@ -24,6 +24,13 @@ body {
 
 h1 {
   color: #140d4f;
+  width: 420px;
+  float: left;
+}
+
+nav {
+  width: 490px;
+  float: right;
 }
 
 h2 {
