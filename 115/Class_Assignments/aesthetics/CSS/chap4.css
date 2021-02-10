@@ -90,17 +90,13 @@ h2 {
   padding: 1em;
 }
 
-button {
+.button {
   background-color: lightgreen;
   border-radius: 8px;
   width: 100px;
   padding: 6px;
   text-align: center;
-}
-
-button a {
   color: #1c0b19;
-  font-weight: bold;
   text-decoration: none;
 }
 
