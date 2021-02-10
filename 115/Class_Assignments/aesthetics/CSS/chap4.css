@@ -39,6 +39,7 @@ header h1 {
   color: #140d4f;
   width: 420px;
   float: left;
+  font-size: 40px;
   font-family: "Big Shoulders Display", cursive;
   letter-spacing: 0.25em;
   text-shadow: 1px 1px 2px greenyellow;
@@ -48,12 +49,19 @@ nav {
   width: 490px;
   float: right;
   color: antiquewhite;
-  padding: 2em;
+  padding: 1em;
+}
+
+#navBar {
+  background-color: darkolivegreen;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
 }
 
 nav a {
   text-decoration: none;
-  font-size: larger;
+  font-size: 18px;
   color: aliceblue;
 }
 
