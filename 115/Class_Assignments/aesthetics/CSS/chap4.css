@@ -68,6 +68,11 @@ nav a {
 h2 {
   color: #4ea699;
   font-size: 24px;
+  background-image: url(/115/Class_Assignments/aesthetics/images/pin.png);
+  background-position: left;
+  padding-left: 1em;
+  background-repeat: no-repeat;
+  background-size: 20px;
   /* padding-left: 50px; */
 }
 
