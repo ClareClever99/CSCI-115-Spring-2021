@@ -1,9 +1,7 @@
 body {
   color: #666666;
   font-family: Verdana, Arial, sans-serif;
-  background-color: #90c7e3;
-  background-image: linear-gradient(to bottom, #ffffff, #90c7e3);
-  background-repeat: no-repeat;
+  background-color: #eaeaea;
 }
 
 header {
@@ -59,6 +57,9 @@ footer {
   min-width: 960px;
   max-width: 2048px;
   box-shadow: 5px 5px 5px #333;
+  background-color: #90c7e3;
+  background-image: linear-gradient(to bottom, #ffffff, #90c7e3);
+  background-repeat: no-repeat;
 }
 
 h3 {
