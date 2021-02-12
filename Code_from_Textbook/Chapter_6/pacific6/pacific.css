@@ -11,6 +11,20 @@ header {
   height: 120px;
 }
 
+header a {
+  text-decoration: none;
+}
+
+header a:link {
+  color: #ffffff;
+}
+header a:visited {
+  color: #ffffff;
+}
+header a:hover {
+  color: #90c7e3;
+}
+
 h1 {
   text-align: center;
   padding-top: 0.5em;
