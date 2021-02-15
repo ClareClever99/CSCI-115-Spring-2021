@@ -28,3 +28,23 @@ footer {
 body {
   background-color: #f3f9d2;
 }
+
+#col1 {
+  width: 300px;
+  float: left;
+  background-color: #c0d684;
+  border: 2px solid black;
+  padding: 1em;
+  min-height: 450px;
+  margin: 5px;
+}
+
+#col2 {
+  width: 580px;
+  float: right;
+  background-color: #c0d684;
+  border: 2px solid black;
+  padding: 1em;
+  min-height: 450px;
+  margin: 5px;
+}
