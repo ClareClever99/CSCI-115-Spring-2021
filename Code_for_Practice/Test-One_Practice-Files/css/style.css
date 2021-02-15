@@ -64,3 +64,12 @@ nav {
 header {
   text-align: center;
 }
+
+#hero {
+  background-repeat: no-repeat;
+  width: 980px;
+  height: 350px;
+  margin: auto;
+  background-image: url(/Code_for_Practice/Test-One_Practice-Files/images/radioSunset.jpg);
+  background-size: 100% 100%;
+}
