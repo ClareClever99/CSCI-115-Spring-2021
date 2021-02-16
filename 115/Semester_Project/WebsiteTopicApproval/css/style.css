@@ -59,6 +59,8 @@ footer {
   text-align: center;
   padding: 1em;
   clear: both;
+  background-color: grey;
+  border-radius: 0.5em;
 }
 
 #columnOne {
