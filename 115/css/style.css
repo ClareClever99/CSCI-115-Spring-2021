@@ -32,6 +32,8 @@ body {
 .email {
   font-family: "Courier New", Courier, monospace;
   font-style: italic;
+  color: plum;
+  font-weight: bold;
 }
 
 /* wrapper */
