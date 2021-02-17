@@ -12,3 +12,12 @@ body {
   background-color: rgba(100, 100, 100, 0.25);
   padding: 20px;
 }
+
+#mountainIMG {
+  /* Two rules to make this image responsive */
+  width: 75%;
+  height: auto;
+  display: block;
+  margin: auto;
+  padding: 1em;
+}
