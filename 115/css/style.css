@@ -39,7 +39,7 @@ body {
 
 /* wrapper */
 #wrapper {
-  width: 960px;
+  width: 1000px;
   margin-right: auto;
   margin-left: auto;
   background-color: rgba(134, 15, 136, 0.15);
@@ -79,4 +79,12 @@ dt {
 
 li a {
   text-decoration: none;
+}
+
+#bannerIMG {
+  width: 95%;
+  height: auto;
+  display: block;
+  margin: auto;
+  padding: 0.5em;
 }
