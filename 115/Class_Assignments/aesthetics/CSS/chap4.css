@@ -123,6 +123,8 @@ h2 {
   text-align: center;
   color: #1c0b19;
   text-decoration: none;
+  display: block;
+  margin: auto;
 }
 
 p a {
