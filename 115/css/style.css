@@ -63,6 +63,10 @@ ol {
 
 nav {
   background-color: purple;
+  height: 2em;
+  margin: 0;
+  padding: 0;
+  padding-top: 1em;
 }
 
 main {
