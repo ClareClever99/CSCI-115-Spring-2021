@@ -43,6 +43,7 @@ body {
   margin-right: auto;
   margin-left: auto;
   background-color: rgba(134, 15, 136, 0.15);
+  box-shadow: 3px 3px 3px rgba(51, 51, 51, 0.5);
 }
 
 /* top nav item */
