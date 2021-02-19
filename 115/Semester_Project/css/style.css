@@ -102,3 +102,9 @@ li {
   width: 95%;
   height: auto;
 }
+
+a {
+  text-decoration: none;
+  color: navy;
+  font-weight: bold;
+}
