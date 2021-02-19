@@ -64,7 +64,7 @@ footer {
 }
 
 #columnOne {
-  width: 400px;
+  width: 42.5%;
   float: left;
   background-color: gainsboro;
   padding: 0.5em;
@@ -72,7 +72,7 @@ footer {
 }
 
 #columnTwo {
-  width: 475px;
+  width: 50%;
   float: right;
   background-color: gainsboro;
   padding: 0.5em;
