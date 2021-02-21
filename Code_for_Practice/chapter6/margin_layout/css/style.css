@@ -4,8 +4,7 @@
   max-width: 1200px;
   margin-right: auto;
   margin-left: auto;
-  background-color: greenyellow;
-  border-radius: 0.25em;
+  background-color: yellowgreen;
   box-shadow: 3px 3px 3px rgba(51, 51, 51, 0.5);
 }
 
@@ -14,6 +13,13 @@
 
 header {
   text-align: center;
+  background-color: teal;
+}
+
+header h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  padding: 0.25em;
 }
 
 body {
@@ -28,16 +34,21 @@ nav a {
 }
 
 nav {
-  background-color: blue;
-  border-radius: 0.25em;
+  background-color: slategray;
+  text-align: center;
+  padding: 0.15em;
 }
 
 /* footer */
 footer {
   font-size: 0.7em;
   font-style: italic;
+  font-weight: bold;
   text-align: center;
   padding: 1em;
-  background-color: green;
-  border-radius: 0.25em;
+  background-color: teal;
+}
+
+main {
+  padding: 0.5em;
 }
