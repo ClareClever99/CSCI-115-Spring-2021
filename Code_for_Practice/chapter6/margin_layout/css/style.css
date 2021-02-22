@@ -71,7 +71,7 @@ main {
   padding-left: 7em;
 }
 
-li p {
+ul li p {
   background-image: url(/Code_for_Practice/chapter6/margin_layout/images/planet-earth.png);
   background-position: left;
   background-repeat: no-repeat;
