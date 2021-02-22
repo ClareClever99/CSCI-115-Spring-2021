@@ -87,7 +87,7 @@ footer {
 main {
   padding: 0.75em;
   overflow: auto;
-  display: block;
+  display: block; /* shim I.E. */
   margin-left: 125px;
 }
 
