@@ -140,3 +140,11 @@ nav li {
   width: 100%;
   border-bottom: 1px solid;
 }
+
+#mobile {
+  display: inline;
+}
+
+#desktop {
+  display: none;
+}
