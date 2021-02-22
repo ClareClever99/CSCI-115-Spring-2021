@@ -32,15 +32,9 @@ h1 {
 }
 
 nav {
-  font-weight: bold;
-  padding-top: 0.5em;
-  padding-right: 0.5em;
-  padding-bottom: 0.5em;
-  float: left;
-  width: 160px;
-  padding: 0;
+  text-align: center;
+  background-color: white;
   font-size: 1.2em;
-  position: fixed;
 }
 
 h2 {
