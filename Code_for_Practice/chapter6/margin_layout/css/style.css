@@ -31,6 +31,19 @@ li {
   position: fixed;
 }
 
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  width: 110;
+  background-color: grey;
+  border-radius: 1em;
+}
+
 header {
   background-color: teal;
   background-image: url(/Code_for_Practice/chapter6/margin_layout/images/earthIcon.png);
@@ -52,17 +65,17 @@ body {
   background-color: lightblue;
 }
 
-nav a {
-  margin-left: 1em;
+nav ul li a {
   text-decoration: none;
   font-size: 1.25em;
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 18px;
+  margin: 1em;
 }
 
 nav a:hover {
-  color: forestgreen;
+  color: black;
 }
 
 nav {
