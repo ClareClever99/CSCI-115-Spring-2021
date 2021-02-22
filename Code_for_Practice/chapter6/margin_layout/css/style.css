@@ -40,10 +40,15 @@ nav a {
   font-size: 18px;
 }
 
+nav a:hover {
+  color: blue;
+}
+
 nav {
   background-color: slategray;
   text-align: center;
   padding: 0.15em;
+  height: 1.45em;
 }
 
 /* footer */
