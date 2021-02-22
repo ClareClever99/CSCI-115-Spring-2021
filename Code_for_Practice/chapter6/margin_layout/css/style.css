@@ -8,11 +8,17 @@
   box-shadow: 3px 3px 3px rgba(51, 51, 51, 0.5);
 }
 
-/* 
 #sub_nav {
-  
-} 
-*/
+  font-weight: bold;
+  padding-top: 0.5em;
+  padding-right: 0.5em;
+  padding-bottom: 0.5em;
+  float: left;
+  width: 115px;
+  padding: 0;
+  font-size: 1.2em;
+  position: fixed;
+}
 
 header {
   text-align: left;
@@ -68,6 +74,9 @@ footer {
 
 main {
   padding: 0.75em;
+  overflow: auto;
+  display: block;
+  margin-left: 125px;
 }
 
 #tagline {
@@ -96,4 +105,16 @@ ul li p {
 
 h2 {
   color: teal;
+}
+
+#sub_nav p {
+  color: forestgreen;
+  text-decoration: none;
+  border-bottom: 2px solid #000;
+  padding-bottom: 2px;
+}
+
+#sub_nav p a {
+  color: forestgreen;
+  text-decoration: none;
 }
