@@ -74,9 +74,10 @@ main {
   padding-left: 2em;
   padding-right: 2em;
   display: block;
-  background-color: #ffffff;
-  margin-left: 170px;
-  overflow: auto;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 #homehero {
