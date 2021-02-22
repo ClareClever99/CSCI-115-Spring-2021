@@ -50,11 +50,11 @@ nav a {
 }
 
 nav a:hover {
-  color: wheat;
+  color: forestgreen;
 }
 
 nav {
-  background-color: slategray;
+  background-color: darkgrey;
   text-align: center;
   padding: 0.15em;
   height: 1.45em;
@@ -101,7 +101,7 @@ ul li p {
   height: auto;
   float: right;
   margin: 1em;
-  border: 3px dashed wheat;
+  border: 3px dashed forestgreen;
 }
 
 h2 {
