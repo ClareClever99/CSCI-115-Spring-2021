@@ -108,7 +108,7 @@ h2 {
   color: teal;
 }
 
-#sub_nav ol li {
+#sub_nav ul li {
   color: forestgreen;
   text-decoration: none;
   border-bottom: 2px solid darkolivegreen;
@@ -117,17 +117,17 @@ h2 {
   padding-top: 0.5em;
 }
 
-#sub_nav ol li a {
+#sub_nav ul li a {
   color: forestgreen;
   text-decoration: none;
 }
 
-#sub_nav ol li a:hover {
+#sub_nav ul li a:hover {
   color: darkgreen;
   text-decoration: none;
 }
 
-#sub_nav ol {
+#sub_nav ul {
   padding-left: 10px;
 }
 
