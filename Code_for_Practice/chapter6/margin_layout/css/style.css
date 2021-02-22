@@ -39,7 +39,6 @@ nav ul {
 
 nav ul li {
   display: inline-block;
-  width: 110;
   background-color: grey;
   border-radius: 1em;
 }
