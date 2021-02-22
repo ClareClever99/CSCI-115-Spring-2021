@@ -51,13 +51,18 @@ header {
   background-size: 5vw;
 }
 
-header h1 {
+header h1 a {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: white;
   padding: 0.25em;
   padding-left: 5.5vw;
   letter-spacing: 0.05em;
   font-size: 2vw;
+  text-decoration: none;
+}
+
+header h1 a:hover {
+  color: aqua;
 }
 
 body {
