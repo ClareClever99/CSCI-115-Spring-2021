@@ -132,10 +132,8 @@ nav ul {
 }
 
 section {
-  float: left;
-  width: 33%;
-  padding-left: 2em;
-  padding-right: 2em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 
 nav li {
