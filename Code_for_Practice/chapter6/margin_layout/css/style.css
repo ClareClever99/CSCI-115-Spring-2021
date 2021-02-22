@@ -1,3 +1,14 @@
+/* CSS reset */
+html,
+body,
+h1,
+h2,
+p,
+li {
+  margin: 0;
+  padding: 0;
+}
+
 #wrapper {
   width: 80%;
   min-width: 750px;
