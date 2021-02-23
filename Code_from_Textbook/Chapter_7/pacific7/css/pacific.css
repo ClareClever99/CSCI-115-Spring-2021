@@ -204,4 +204,8 @@ nav li {
     padding-left: 10%;
     padding-right: 10%;
   }
+  #wrapper {
+    margin: auto;
+    width: 80%;
+  }
 }
