@@ -62,7 +62,6 @@ footer {
 
 #wrapper {
   background-color: #ffffff;
-  background-color: #90c7e3;
 }
 
 h3 {
@@ -147,6 +146,31 @@ nav li {
 
 #desktop {
   display: none;
+}
+
+table {
+  margin: auto;
+  border: 1px solid #3399cc;
+  width: 90%;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  padding: 5px;
+  border: 1px solid #3399cc;
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-of-type(even) {
+  background-color: #dfedf8;
+}
+
+.text {
+  text-align: left;
 }
 
 @media (min-width: 600px) {
