@@ -148,3 +148,16 @@ nav li {
 #desktop {
   display: none;
 }
+
+@media (min-width: 600px) {
+  h1 {
+    font-size: 2em;
+    letter-spacing: 0.25em;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-right: 2em;
+  }
+}
