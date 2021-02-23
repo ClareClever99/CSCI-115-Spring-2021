@@ -178,4 +178,15 @@ nav li {
   #desktop {
     display: inline;
   }
+  #homehero {
+    background-size: 100% 100%;
+  }
+
+  #yurthero {
+    background-size: 100% 100%;
+  }
+
+  #trailhero {
+    background-size: 100% 100%;
+  }
 }
