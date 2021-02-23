@@ -168,4 +168,14 @@ nav li {
     padding-left: 2em;
     padding-right: 2em;
   }
+  #flow {
+    display: flex;
+    flex-direction: row;
+  }
+  #mobile {
+    display: none;
+  }
+  #desktop {
+    display: inline;
+  }
 }
