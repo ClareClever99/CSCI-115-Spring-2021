@@ -34,7 +34,7 @@ li {
 nav ul {
   list-style-type: none;
   padding: 0;
-  margin: 0;
+  margin: 0.5;
 }
 
 nav ul li {
@@ -42,14 +42,9 @@ nav ul li {
 }
 
 nav ul li a {
-  background-color: grey;
-  padding: 1px;
+  background-color: slategrey;
+  padding: 4px;
   border-radius: 5px;
-  border: 1px solid darkslategray;
-}
-
-nav ul li a:hover {
-  border: 2px solid darkblue;
 }
 
 header {
@@ -80,10 +75,9 @@ body {
 
 nav ul li a {
   text-decoration: none;
-  font-size: 1.25em;
+  font-size: 1.15em;
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 18px;
   margin: 1em;
 }
 
@@ -92,10 +86,12 @@ nav a:hover {
 }
 
 nav {
-  background-color: darkgrey;
+  background-color: silver;
   text-align: center;
   padding: 0.15em;
-  height: 1.45em;
+  height: 3em;
+  border-bottom: 3px solid darkolivegreen;
+  border-top: 4px solid darkolivegreen;
 }
 
 /* footer */
