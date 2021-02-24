@@ -39,10 +39,17 @@ nav ul {
 
 nav ul li {
   display: inline-block;
+}
+
+nav ul li a {
   background-color: grey;
-  border-radius: 1em;
-  border-left: 3px solid gainsboro;
-  border-right: 3px solid gainsboro;
+  padding: 1px;
+  border-radius: 5px;
+  border: 1px solid darkslategray;
+}
+
+nav ul li a:hover {
+  border: 2px solid darkblue;
 }
 
 header {
@@ -81,7 +88,7 @@ nav ul li a {
 }
 
 nav a:hover {
-  color: black;
+  color: darkslateblue;
 }
 
 nav {
