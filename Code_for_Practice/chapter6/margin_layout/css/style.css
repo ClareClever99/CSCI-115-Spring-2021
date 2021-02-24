@@ -41,6 +41,8 @@ nav ul li {
   display: inline-block;
   background-color: grey;
   border-radius: 1em;
+  border-left: 3px solid gainsboro;
+  border-right: 3px solid gainsboro;
 }
 
 header {
@@ -165,4 +167,8 @@ h2 {
 
 p {
   font-family: Arial, sans-serif;
+}
+
+#sub_nav {
+  border-right: 2.25px solid darkolivegreen;
 }
