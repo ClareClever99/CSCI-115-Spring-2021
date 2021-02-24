@@ -12,3 +12,21 @@
   padding: 20px;
   box-sizing: border-box;
 }
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: orange;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: gold;
+  text-decoration: underline overline;
+  background-color: lightblue;
+}
