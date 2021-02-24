@@ -1,5 +1,14 @@
 .default {
+  /* This is 260 width */
   width: 200px;
   border: 10px solid gold;
   padding: 20px;
+}
+
+.notDefault {
+  /* This is 200 width */
+  width: 200px;
+  border: 10px solid gold;
+  padding: 20px;
+  box-sizing: border-box;
 }
