@@ -101,3 +101,11 @@ nav a:hover {
 li a:hover {
   color: darkmagenta;
 }
+
+header a:hover {
+  color: darkmagenta;
+}
+
+dd a:hover {
+  color: darkmagenta;
+}
