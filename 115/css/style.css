@@ -109,3 +109,7 @@ header a:hover {
 dd a:hover {
   color: darkmagenta;
 }
+
+.email:hover {
+  color: lightpink;
+}
