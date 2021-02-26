@@ -89,6 +89,16 @@ p a {
   font-size: 1em;
 }
 
+dd p a {
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+}
+
+dd p a:hover {
+  color: darkblue;
+}
+
 nav a:hover {
   color: gainsboro;
 }
