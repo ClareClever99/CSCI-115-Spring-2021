@@ -79,13 +79,22 @@ footer {
   border-radius: 0.5em;
 }
 
-nav a {
+nav a,
+p a {
   padding-left: 1em;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-decoration: none;
   color: whitesmoke;
   font-weight: bold;
   font-size: 1em;
+}
+
+nav a:hover {
+  color: gainsboro;
+}
+
+p a:hover {
+  color: gainsboro;
 }
 
 nav {
@@ -113,6 +122,10 @@ li {
 
 a {
   text-decoration: none;
-  color: navy;
+  color: blue;
   font-weight: bold;
+}
+
+a:hover {
+  color: darkblue;
 }
