@@ -7,6 +7,7 @@ html {
 h2 {
   color: #002171;
   font-family: Georgia, serif;
+  font-size: 1.25rem;
 }
 
 /* dt */
@@ -39,7 +40,8 @@ body {
 
 /* wrapper */
 #wrapper {
-  width: 1000px;
+  width: 50vw;
+  min-width: 400px;
   margin-right: auto;
   margin-left: auto;
   background-color: rgba(134, 15, 136, 0.15);
