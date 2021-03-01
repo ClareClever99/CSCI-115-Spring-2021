@@ -100,10 +100,10 @@ header h1 {
   color: #5c5c5c;
 }
 #sub_nav a:hover {
-  color: #1b00ff;
+  color: red;
 }
 #sub_nav li:hover {
-  border-bottom: 2px solid #1b00ff;
+  border-bottom: 2px solid orange;
   background-color: #fff6b7;
 }
 
