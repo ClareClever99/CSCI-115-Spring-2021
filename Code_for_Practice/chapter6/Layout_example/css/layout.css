@@ -15,187 +15,202 @@ Catalina Blue (#002C75)
 Oxford Blue (#001E50)
 theblue #1b00ff 
 */
-html, body, h1, h2, p, li {
-    margin: 0; 
-    padding: 0; 
+html,
+body,
+h1,
+h2,
+p,
+li {
+  margin: 0;
+  padding: 0;
 }
 
 body {
-	background-color: #9eadb2; 
-}   
+  background-color: #9eadb2;
+}
 #wrapper {
-	width: 80% ;
-	margin: auto; 
-	min-width: 750px ;	 
-	max-width: 1200px;	
-	background-color: #ffffff; 
-    font-family: 'Montserrat', sans-serif;
+  width: 80%;
+  margin: auto;
+  min-width: 750px;
+  max-width: 1200px;
+  background-color: #ffffff;
+  font-family: "Montserrat", sans-serif;
 }
 
-header{      
-	padding-left: 250px; 
-	background-image: url(logo.png);
-	background-repeat: no-repeat;
-min-height: 200px;
-height:auto;  /*Instead pixels, auto grows with responsive text*/
-    background-color: #e8f4f8;; 
+header {
+  padding-left: 250px;
+  background-image: url(logo.png);
+  background-repeat: no-repeat;
+  min-height: 200px;
+  height: auto; /*Instead pixels, auto grows with responsive text*/
+  background-color: #e8f4f8;
 }
 
 header h1 {
-    font-size: clamp(2rem, 4vw, 6vw); 
-    padding-top: 30px; 
-    letter-spacing: .03em; 
-	color: #1b00ff ;
-	font-family: 'Berkshire Swash', cursive;
+  font-size: clamp(2rem, 4vw, 6vw);
+  padding-top: 30px;
+  letter-spacing: 0.03em;
+  color: #1b00ff;
+  font-family: "Berkshire Swash", cursive;
   /* if you have a busy background, consider text-shadow*/
 }
 
 #tagline {
-    font-style: italic;
-	font-weight: bold; 
-    color: #f9c407; 
-	font-size: clamp(2rem, 2.5vw, 4vw); 
-	margin-top: 15px; 
-/*I chose not to do another font because i already have too many primary fonts */
+  font-style: italic;
+  font-weight: bold;
+  color: #f9c407;
+  font-size: clamp(2rem, 2.5vw, 4vw);
+  margin-top: 15px;
+  /*I chose not to do another font because i already have too many primary fonts */
 }
 
-
-
 /* Left column */
-#sub_nav{
-    float: left; 
-    width: 250px; 
-    /* I chose to put the padding in the ul */
- }
+#sub_nav {
+  float: left;
+  width: 250px;
+  /* I chose to put the padding in the ul */
+}
 
 /* Navigation for left column */
-#sub_nav ul{
-    list-style-type: none; 
-    margin-top: 40px; 
-    padding: 0px 0px 0px 10px; /*left default 40px */ 
+#sub_nav ul {
+  list-style-type: none;
+  margin-top: 40px;
+  padding: 0px 0px 0px 10px; /*left default 40px */
 }
 
 #sub_nav li {
-    margin: 5px 3px; 
-    border-bottom: 2px solid #004098; 
-    width: 200px; 
+  margin: 5px 3px;
+  border-bottom: 2px solid #004098;
+  width: 200px;
 }
 
 #sub_nav a {
-    text-decoration: none; 
-    padding: 5px; 
-    display: block; 
-	font-family: verdana, arial; 
-	font-size: .9em;
-	font-weight: bold; 
+  text-decoration: none;
+  padding: 5px;
+  display: block;
+  font-family: verdana, arial;
+  font-size: 0.9em;
+  font-weight: bold;
 }
 
-
-#sub_nav a:link {color: #3d3d3d; }
-#sub_nav a:visited {color: #5c5c5c; } 
-#sub_nav a:hover{ color: #1b00ff ;  }
-#sub_nav li:hover { border-bottom: 2px solid #1b00ff ; background-color: #FFF6B7; }
+#sub_nav a:link {
+  color: #3d3d3d;
+}
+#sub_nav a:visited {
+  color: #5c5c5c;
+}
+#sub_nav a:hover {
+  color: #1b00ff;
+}
+#sub_nav li:hover {
+  border-bottom: 2px solid #1b00ff;
+  background-color: #fff6b7;
+}
 
 main {
-    margin-left: 255px; 
-    border-left: 2px solid navy; 
-    padding: 1.5em 0 1em 1em; 
+  margin-left: 255px;
+  border-left: 2px solid navy;
+  padding: 1.5em 0 1em 1em;
 }
 
 /* The horiz MENU */
-nav {background-color: #1b00ff; 
-/*    height: 40px;*/
+nav {
+  background-color: #1b00ff;
+  /*    height: 40px;*/
 }
 
-nav ul{
-    list-style-type: none; 
-    padding: 0; 
-    margin: 0; 
-    text-align: center; 
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
 }
 
 nav li {
-    display: inline-block; 
-    background-color: #004098; 
-    width: 125px; 
-    border-radius: 2px; 
-    padding: 4px 3px;   /* how i got tall buttons*/
-    margin: 4px 0px;  
-    border-bottom: 5px solid #FFE77D; /* same */
-     
-    /*float: left; would be needed for to remove large gaps */
+  display: inline-block;
+  background-color: #004098;
+  width: 125px;
+  border-radius: 2px;
+  padding: 4px 3px; /* how i got tall buttons*/
+  margin: 4px 0px;
+  border-bottom: 5px solid #ffe77d; /* same */
+
+  /*float: left; would be needed for to remove large gaps */
 }
 
 nav a {
-text-decoration: none;  
-color: #FFF6B7; 
-  }   
+  text-decoration: none;
+  color: #fff6b7;
+}
 /* I don't like my nave button colors, but... */
-nav a:link {color: azure;  }
-nav a:visited {color: lightgreen;  } 
-nav a:hover{ color: #CCFFCC;   }
-nav li:hover { border-bottom: 5px solid #099019;}
-
+nav a:link {
+  color: azure;
+}
+nav a:visited {
+  color: lightgreen;
+}
+nav a:hover {
+  color: #ccffcc;
+}
+nav li:hover {
+  border-bottom: 5px solid #099019;
+}
 
 .sidePic {
-    width: 40%; 
-    height: auto; 
-    float: right; 
-/* extra designs */    
-	border: 3px solid  goldenrod; 
-	padding:15px; 
-	margin: 0 20px 0 10px; 
+  width: 40%;
+  height: auto;
+  float: right;
+  /* extra designs */
+  border: 3px solid goldenrod;
+  padding: 15px;
+  margin: 0 20px 0 10px;
 
-	background-color: ivory;     
-    
+  background-color: ivory;
 }
-
 
 footer {
-	padding: 10px 10px 10px 260px; 
-    background-color: #FFF6B7;
-    color:#001E50	;
+  padding: 10px 10px 10px 260px;
+  background-color: #fff6b7;
+  color: #001e50;
 }
 
-
-p, li {
-	color: #454545; 
-	margin: .5em 0 .5em 0; 
-	line-height: 130%; 
-	font-size: 110%; 
+p,
+li {
+  color: #454545;
+  margin: 0.5em 0 0.5em 0;
+  line-height: 130%;
+  font-size: 110%;
 }
 
 h2 {
-	margin: 2em 0 .5em 0; 
-	color: #001E50;
+  margin: 2em 0 0.5em 0;
+  color: #001e50;
 }
 
-
-.special { 
-    background: #f1f1f1; 
-    box-sizing: border-box;
-    margin: 50px 0 0 20px ; 
-    width: 200px; 
-    height: 200px; 
-    padding: 20px 10px;
-    text-align: center; 
-    font-size: 1.4em; 
-    box-shadow: 0px 3px  4px 0px rgba(0, 0, 0, 0.2);
+.special {
+  background: #f1f1f1;
+  box-sizing: border-box;
+  margin: 50px 0 0 20px;
+  width: 200px;
+  height: 200px;
+  padding: 20px 10px;
+  text-align: center;
+  font-size: 1.4em;
+  box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.2);
 }
 
 .special:hover {
-     box-shadow: 0px 3px  10px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.2);
 }
 
-main  ul {
-	list-style-image: url(thinking.png); )
+main ul {
+  list-style-image: url(thinking.png);
 }
 
 .usa {
-    font-family: "arial black", verdana; 
-    font-size: 4em; 
-    color: blue; 
-    letter-spacing: .10em;
-    text-shadow: 3px 3px 0px #ffffff, 6px 6px 0px rgba(200,0,0, 0.85);
+  font-family: "arial black", verdana;
+  font-size: 4em;
+  color: blue;
+  letter-spacing: 0.1em;
+  text-shadow: 3px 3px 0px #ffffff, 6px 6px 0px rgba(200, 0, 0, 0.85);
 }
-
