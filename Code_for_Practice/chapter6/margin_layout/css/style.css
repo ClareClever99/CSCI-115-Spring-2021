@@ -67,6 +67,7 @@ header h1 a {
 
 header h1 a:hover {
   color: aqua;
+  transition-duration: 0.25s;
 }
 
 body {
@@ -83,6 +84,7 @@ nav ul li a {
 
 nav a:hover {
   color: darkslateblue;
+  transition-duration: 0.25s;
 }
 
 nav {
@@ -162,6 +164,7 @@ h2 {
 #sub_nav ul li a:hover {
   color: darkgreen;
   text-decoration: none;
+  transition-duration: 0.25s;
 }
 
 #sub_nav ul {
