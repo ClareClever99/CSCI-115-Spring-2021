@@ -39,7 +39,7 @@ body {
 
 header {
   padding-left: 250px;
-  background-image: url(logo.png);
+  background-image: url(../images/logo.png);
   background-repeat: no-repeat;
   min-height: 200px;
   height: auto; /*Instead pixels, auto grows with responsive text*/
@@ -204,7 +204,7 @@ h2 {
 }
 
 main ul {
-  list-style-image: url(thinking.png);
+  list-style-image: url(../images/star.ico);
 }
 
 .usa {
