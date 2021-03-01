@@ -52,7 +52,7 @@ header {
   background-image: url(../images/earthIcon.png);
   background-repeat: no-repeat;
   background-position: left;
-  background-size: 4vw;
+  background-size: 5rem;
 }
 
 header h1 a {
@@ -61,7 +61,7 @@ header h1 a {
   padding: 0.25em;
   padding-left: 5vw;
   letter-spacing: 0.05em;
-  font-size: 2vw;
+  font-size: 1.5em;
   text-decoration: none;
 }
 
