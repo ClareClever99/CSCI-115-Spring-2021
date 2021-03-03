@@ -23,6 +23,24 @@ body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
+h3 {
+  font-weight: bold;
+  line-height: 150%;
+  color: darkcyan;
+  font-size: 1.25em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h4 a {
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+}
+
+h4 a:hover {
+  color: darkblue;
+}
+
 header h1 {
   text-align: center;
   color: slateblue;
