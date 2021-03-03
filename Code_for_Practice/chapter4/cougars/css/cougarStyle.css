@@ -1,0 +1,22 @@
+/* See color palette:
+http://marcomm.cofc.edu/brandmanual/bychapter/visualidentity/colorpalette.php
+*/
+
+body {
+  background-color: #222222;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 60px;
+  color: #660000;
+  font-style: italic;
+  letter-spacing: 0.04em;
+}
+
+footer {
+  clear: both;
+  color: cornsilk;
+  padding-top: 20px;
+  text-align: center;
+}
