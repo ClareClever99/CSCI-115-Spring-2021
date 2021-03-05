@@ -20,6 +20,11 @@ header h1 {
   font-style: italic;
   letter-spacing: 0.04em;
 }
+header {
+  border-radius: 10px;
+  margin: 5px;
+  text-shadow: 1px 1px #d95e00;
+}
 
 #container {
   width: 980px;
@@ -36,8 +41,8 @@ main {
 figure {
   width: 400px;
   padding: 10px;
-  background-color: #f0fff0;
-  border: 5px solid maroon;
+  background-color: #dbceac;
+  border: 4px solid maroon;
   /* float and margins */
 }
 
@@ -58,8 +63,9 @@ footer {
 
 main p {
   padding: 1em;
-  color: whitesmoke;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #beb9a6;
+  font-size: 1.25em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 nav {
@@ -72,11 +78,11 @@ nav {
 nav img {
   border-radius: 50%;
   margin: 0.5em;
-  border: 3px solid purple;
+  border: 4px solid #d95e00;
 }
 
 nav img:hover {
-  border: 3px solid plum;
+  border: 4px solid #f69240;
 }
 
 #floatLeft {
