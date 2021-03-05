@@ -24,10 +24,25 @@ header h1 {
 #container {
   width: 980px;
   margin: auto;
+  box-shadow: 3px 3px 3px #333;
 }
 
 main {
   background-color: rgba(50, 50, 50, 0.6);
+}
+
+figure {
+  width: 430px;
+  padding: 10px;
+  background-color: #f0fff0;
+  border: 5px solid maroon;
+  /* float and margins */
+}
+
+figcaption {
+  /* just make it look good */
+  text-align: center;
+  padding: 5px;
 }
 
 footer {
@@ -35,4 +50,18 @@ footer {
   color: cornsilk;
   padding-top: 20px;
   text-align: center;
+}
+
+main p {
+  padding: 1em;
+  color: whitesmoke;
+}
+
+nav {
+  /* make it work ; not float */
+}
+
+nav img {
+  border-radius: 50%;
+  margin: 3em;
 }
