@@ -2,6 +2,10 @@
 http://marcomm.cofc.edu/brandmanual/bychapter/visualidentity/colorpalette.php
 */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #222222;
 }
