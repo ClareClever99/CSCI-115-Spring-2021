@@ -24,15 +24,17 @@ header h1 {
 #container {
   width: 980px;
   margin: auto;
-  box-shadow: 3px 3px 3px #333;
 }
 
 main {
   background-color: rgba(50, 50, 50, 0.6);
+  padding-bottom: 2em;
+  box-shadow: 10px 10px 10px #333;
+  border-radius: 10px;
 }
 
 figure {
-  width: 430px;
+  width: 400px;
   padding: 10px;
   background-color: #f0fff0;
   border: 5px solid maroon;
@@ -55,6 +57,8 @@ footer {
 main p {
   padding: 1em;
   color: whitesmoke;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 nav {
@@ -63,5 +67,18 @@ nav {
 
 nav img {
   border-radius: 50%;
-  margin: 3em;
+  margin: 0.5em;
+  border: 3px solid purple;
+}
+
+nav img:hover {
+  border: 3px solid plum;
+}
+
+#floatLeft {
+  float: left;
+}
+
+#floatRight {
+  float: right;
 }
