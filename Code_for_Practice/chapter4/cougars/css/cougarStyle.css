@@ -45,6 +45,8 @@ figcaption {
   /* just make it look good */
   text-align: center;
   padding: 5px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
 }
 
 footer {
@@ -57,8 +59,7 @@ footer {
 main p {
   padding: 1em;
   color: whitesmoke;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 nav {
