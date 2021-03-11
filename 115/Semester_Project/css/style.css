@@ -108,21 +108,17 @@ p a {
   font-size: 1em;
 }
 
-dd p a {
+p a {
   text-decoration: none;
   color: blue;
   font-weight: bold;
 }
 
-dd p a:hover {
+p a:hover {
   color: darkblue;
 }
 
 nav a:hover {
-  color: gainsboro;
-}
-
-p a:hover {
   color: gainsboro;
 }
 
