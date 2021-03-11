@@ -100,7 +100,6 @@ footer {
 
 nav a,
 p a {
-  padding-left: 1em;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-decoration: none;
   color: whitesmoke;
@@ -153,4 +152,8 @@ a {
 
 a:hover {
   color: darkblue;
+}
+
+nav a {
+  padding-left: 1em;
 }
