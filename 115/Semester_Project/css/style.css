@@ -28,7 +28,7 @@ h3 {
   font-weight: bold;
   line-height: 150%;
   color: darkcyan;
-  font-size: 1.25em;
+  font-size: clamp(1rem, 2.5vw, 1.25vw);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
