@@ -157,3 +157,11 @@ a:hover {
 nav a {
   padding-left: 1em;
 }
+
+#linkHome {
+  color: white;
+}
+
+#linkHome:hover {
+  color: gainsboro;
+}
