@@ -152,7 +152,19 @@ footer {
     color: green;
   }
 
-  p {
+  /* p {
     font-size: 90%;
+    This is not needed because it will waterfall down from the tablet...
+  } */
+
+  nav,
+  nav ul,
+  nav li {
+    padding: 0;
+  }
+
+  nav a {
+    padding: 0.5em 0;
+    display: block;
   }
 } /* end of smart phone */
