@@ -9,8 +9,9 @@
 
 footer {
   text-align: center;
-  background-color: skyblue;
+  background-color: #87ceeb;
   border-radius: 6px;
+  clear: both;
 }
 
 nav a {
@@ -86,4 +87,20 @@ footer p i a:hover {
 
 figcaption {
   font-style: italic;
+}
+
+#columnOne {
+  width: 45%;
+  float: left;
+  background-color: gainsboro;
+  border-radius: 0.5em;
+  margin: 10px;
+}
+
+#columnTwo {
+  width: 45%;
+  float: right;
+  background-color: gainsboro;
+  border-radius: 0.5em;
+  margin: 10px;
 }
