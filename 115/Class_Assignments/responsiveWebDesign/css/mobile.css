@@ -154,7 +154,7 @@ footer {
 
   /* p {
     font-size: 90%;
-    This is not needed because it will waterfall down from the tablet...
+    This is not needed because it will waterfall down from the tablet's media query...
   } */
 
   nav,
@@ -165,6 +165,11 @@ footer {
 
   nav a {
     padding: 0.5em 0;
+    display: block;
+    border-bottom: 1px solid black;
+  }
+
+  nav li {
     display: block;
   }
 } /* end of smart phone */
