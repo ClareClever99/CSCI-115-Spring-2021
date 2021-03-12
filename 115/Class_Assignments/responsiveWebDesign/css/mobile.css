@@ -144,3 +144,15 @@ footer {
     font-size: 90%;
   }
 } /* end of tablet */
+
+@media (max-width: 768px) {
+  h1,
+  h2 {
+    font-size: 100%;
+    color: green;
+  }
+
+  p {
+    font-size: 90%;
+  }
+} /* end of smart phone */
