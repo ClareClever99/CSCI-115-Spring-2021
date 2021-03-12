@@ -1,0 +1,52 @@
+#wrapper {
+  max-width: 1000px;
+  width: 50%;
+  margin: auto;
+  background-color: silver;
+  padding: 1em;
+  border-radius: 0.5em;
+  min-width: 425px;
+}
+
+footer {
+  text-align: center;
+  background-color: skyblue;
+  border-radius: 6px;
+}
+
+nav a {
+  padding-right: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: lightcyan;
+}
+
+nav a span {
+  background-color: cadetblue;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+nav a span:hover {
+  background-color: lightblue;
+}
+
+nav a:hover {
+  color: blue;
+}
+
+nav {
+  text-align: center;
+  background-color: skyblue;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+footer p a {
+  color: white;
+  text-decoration: none;
+}
+
+footer p a:hover {
+  color: gainsboro;
+}
