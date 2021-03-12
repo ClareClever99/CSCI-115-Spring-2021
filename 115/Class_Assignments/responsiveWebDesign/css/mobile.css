@@ -102,6 +102,11 @@ footer {
   background-color: #869dc7;
 }
 
+img {
+  max-width: 85%;
+  height: auto;
+}
+
 /* media queries for small and medium devices */
 @media (max-width: 1024px) {
   main {
@@ -171,5 +176,9 @@ footer {
 
   nav li {
     display: block;
+  }
+
+  figure {
+    float: none;
   }
 } /* end of smart phone */
