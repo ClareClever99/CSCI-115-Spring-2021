@@ -50,3 +50,12 @@ footer p a {
 footer p a:hover {
   color: gainsboro;
 }
+
+.heroPic {
+  margin: auto;
+  width: 95%;
+}
+
+header p {
+  text-align: center;
+}
