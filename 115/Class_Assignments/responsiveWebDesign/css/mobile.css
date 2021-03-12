@@ -104,4 +104,11 @@ footer {
 
 /* media queries for small and medium devices */
 @media (max-width: 1024px) {
+  main {
+    margin-left: 0;
+  }
+  nav {
+    float: none;
+    width: auto;
+  }
 } /* end of tablet */
