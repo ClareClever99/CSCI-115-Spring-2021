@@ -107,8 +107,22 @@ footer {
   main {
     margin-left: 0;
   }
+
   nav {
     float: none;
     width: auto;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  #wrapper {
+    width: 100%;
+  }
+
+  nav li {
+    display: inline-block;
+    padding: 0.5em;
   }
 } /* end of tablet */
