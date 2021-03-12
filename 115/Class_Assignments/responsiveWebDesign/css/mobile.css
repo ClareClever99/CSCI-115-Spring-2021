@@ -137,5 +137,6 @@ footer {
   h1,
   h2 {
     font-size: 120%;
+    color: dodgerblue;
   }
 } /* end of tablet */
