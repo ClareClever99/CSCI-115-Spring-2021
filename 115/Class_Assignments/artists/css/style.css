@@ -84,3 +84,7 @@ footer p i a {
 footer p i a:hover {
   color: gainsboro;
 }
+
+figcaption {
+  font-style: italic;
+}
