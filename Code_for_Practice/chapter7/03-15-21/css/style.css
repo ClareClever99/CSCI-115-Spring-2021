@@ -1,0 +1,117 @@
+/* html */
+html {
+  background-color: rgba(134, 15, 136, 0.5);
+}
+
+/* ht */
+h2 {
+  color: #002171;
+  font-family: Georgia, serif;
+  font-size: 1.25rem;
+}
+
+/* dt */
+dt {
+  color: #1976d2;
+  font-weight: bold;
+}
+
+/* footer */
+footer {
+  font-size: 0.7em;
+  font-style: italic;
+  text-align: center;
+  padding: 1em;
+  background-color: plum;
+}
+
+/* body */
+body {
+  font-family: Verdana, Arial, sans-serif;
+}
+
+/* email class */
+.email {
+  font-family: "Courier New", Courier, monospace;
+  font-style: italic;
+  color: plum;
+  font-weight: bold;
+}
+
+/* wrapper */
+#wrapper {
+  width: 50vw;
+  min-width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgba(134, 15, 136, 0.15);
+  box-shadow: 3px 3px 3px rgba(51, 51, 51, 0.5);
+}
+
+/* top nav item */
+.topNavItem {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  padding-left: 1em;
+}
+
+/* ul & ol */
+ul,
+ol {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: large;
+  line-height: 150%;
+}
+
+nav {
+  background-color: purple;
+  height: 2em;
+  margin: 0;
+  padding: 0;
+  padding-top: 1em;
+}
+
+main {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+dt {
+  color: #002171;
+  font-family: Georgia, serif;
+  font-size: 1em;
+  line-height: 2em;
+}
+
+li a {
+  text-decoration: none;
+}
+
+#bannerIMG {
+  width: 95%;
+  height: auto;
+  display: block;
+  margin: auto;
+  padding: 0.5em;
+}
+
+nav a:hover {
+  color: violet;
+}
+
+li a:hover {
+  color: darkmagenta;
+}
+
+header a:hover {
+  color: darkmagenta;
+}
+
+dd a:hover {
+  color: darkmagenta;
+}
+
+.email:hover {
+  color: lightpink;
+}
