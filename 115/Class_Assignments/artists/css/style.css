@@ -99,3 +99,8 @@ ul li a {
   text-decoration: none;
   padding-left: 35px;
 }
+
+.IMGonArtworkPage {
+  width: 50%;
+  height: auto;
+}
