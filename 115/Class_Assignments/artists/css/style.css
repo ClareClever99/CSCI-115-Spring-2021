@@ -72,10 +72,6 @@ ul li {
   height: 24px;
 }
 
-ul li a {
-  padding-left: 30px;
-}
-
 footer p i a {
   color: white;
   text-decoration: none;
@@ -89,18 +85,16 @@ figcaption {
   font-style: italic;
 }
 
-#columnOne {
-  width: 45%;
-  float: left;
+ul {
   background-color: gainsboro;
-  border-radius: 0.5em;
-  margin: 10px;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 4px;
 }
 
-#columnTwo {
-  width: 45%;
-  float: right;
-  background-color: gainsboro;
-  border-radius: 0.5em;
-  margin: 10px;
+ul li a {
+  color: blue;
+  text-decoration: none;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding-left: 35px;
 }
