@@ -15,6 +15,12 @@
       }
       #gallery {
         display: flex;
+        flex-direction: row;
+        /* flex-direction: column; */
+        padding: 1em;
+        justify-content: space-evenly;
+        width: 900px;
+        background-color: salmon;
       }
     </style>
   </head>
@@ -24,27 +30,12 @@
     </header>
     <main>
       <div id="gallery">
-        <img
-          src="bird1.jpg"
-          width="200"
-          height="150"
-          alt="Red Crested Cardinal"
-        />
-        <img
-          src="bird2.jpg"
-          width="200"
-          height="150"
-          alt="Rose-Breasted Grosbeak"
-        />
-        <img src="bird3.jpg" width="200" height="150" alt="Gyrfalcon" />
-        <img src="bird4.jpg" width="200" height="150" alt="Rock Wren" />
-        <img src="bird5.jpg" width="200" height="150" alt="Coopers Hawk" />
-        <img
-          src="bird6.jpg"
-          width="200"
-          height="150"
-          alt="Immature Bald Eagle"
-        />
+        <img src="bird1.jpg" alt="Red Crested Cardinal" />
+        <img src="bird2.jpg" alt="Rose-Breasted Grosbeak" />
+        <img src="bird3.jpg" alt="Gyrfalcon" />
+        <img src="bird4.jpg" alt="Rock Wren" />
+        <img src="bird5.jpg" alt="Coopers Hawk" />
+        <img src="bird6.jpg" alt="Immature Bald Eagle" />
       </div>
     </main>
   </body>
