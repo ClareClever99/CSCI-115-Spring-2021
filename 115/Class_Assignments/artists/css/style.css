@@ -153,4 +153,12 @@ ul li a {
   h1 {
     font-size: 3em;
   }
+
+  body {
+    margin: 0;
+  }
+
+  #wrapper {
+    width: 100%;
+  }
 }
