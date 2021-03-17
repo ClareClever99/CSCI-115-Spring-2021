@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Redressed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 #wrapper {
   width: 75%;
   margin: auto;
@@ -64,6 +68,8 @@ header p {
 
 h1 {
   text-align: center;
+  font-family: "Redressed", cursive;
+  font-size: 5em;
 }
 
 ul li {
@@ -86,7 +92,6 @@ footer p i a:hover {
 
 figcaption {
   font-style: italic;
-  padding-left: 2em;
 }
 
 ul {
@@ -115,4 +120,16 @@ ul li a {
 
 .indexIMG {
   width: 70%;
+}
+
+h2 {
+  font-family: "Syne Mono", monospace;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+header figure figcaption {
+  padding-left: 2em;
 }
