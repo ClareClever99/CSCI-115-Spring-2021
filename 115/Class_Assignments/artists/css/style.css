@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Redressed&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap");
 
 #wrapper {
   width: 75%;
@@ -132,4 +133,8 @@ p {
 
 header figure figcaption {
   padding-left: 2em;
+}
+
+ul li a {
+  font-family: "Akaya Telivigala", cursive;
 }
