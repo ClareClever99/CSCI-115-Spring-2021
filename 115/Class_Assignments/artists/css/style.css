@@ -104,3 +104,9 @@ ul li a {
   width: 50%;
   height: auto;
 }
+
+.aboutIMG {
+  width: 40%;
+  height: auto;
+  padding: 10px;
+}
