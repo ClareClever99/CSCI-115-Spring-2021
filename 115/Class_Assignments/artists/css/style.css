@@ -55,6 +55,7 @@ footer p a:hover {
 .heroPic {
   margin: auto;
   width: 95%;
+  padding-top: 1em;
 }
 
 header p {
@@ -85,6 +86,7 @@ footer p i a:hover {
 
 figcaption {
   font-style: italic;
+  padding-left: 2em;
 }
 
 ul {
