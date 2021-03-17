@@ -2,6 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Slab:wght@600&display=swap");
 
 #wrapper {
   width: 75%;
@@ -23,8 +25,8 @@ footer {
 nav a {
   padding-right: 15px;
   text-decoration: none;
-  font-weight: bold;
   color: lightcyan;
+  font-family: "Roboto Slab", serif;
 }
 
 nav a span {
@@ -92,7 +94,8 @@ footer p i a:hover {
 }
 
 figcaption {
-  font-style: italic;
+  font-family: "Dancing Script", cursive;
+  font-size: 1.25em;
 }
 
 ul {
