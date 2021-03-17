@@ -20,6 +20,7 @@ footer {
   border-radius: 6px;
   clear: both;
   min-height: 120px;
+  padding-top: 10px;
 }
 
 nav a {
