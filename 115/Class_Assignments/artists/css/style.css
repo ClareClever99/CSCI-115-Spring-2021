@@ -143,3 +143,8 @@ header figure figcaption {
 ul li a {
   font-family: "Akaya Telivigala", cursive;
 }
+
+.contentWrap {
+  width: 93%;
+  margin: auto;
+}
