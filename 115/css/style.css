@@ -40,12 +40,14 @@ body {
 
 /* wrapper */
 #wrapper {
-  width: 50vw;
+  width: 60vw;
   min-width: 400px;
   margin-right: auto;
   margin-left: auto;
   background-color: rgba(134, 15, 136, 0.15);
   box-shadow: 3px 3px 3px rgba(51, 51, 51, 0.5);
+  max-width: 1200px;
+  font-family: "century gothic", sans-serif;
 }
 
 /* top nav item */
@@ -89,7 +91,7 @@ li a {
 }
 
 #bannerIMG {
-  width: 95%;
+  width: 97%;
   height: auto;
   display: block;
   margin: auto;
@@ -114,4 +116,52 @@ dd a:hover {
 
 .email:hover {
   color: lightpink;
+}
+
+#homework {
+  background-color: orchid;
+  flex: 3;
+  padding: 1em;
+  min-width: 12em;
+}
+
+#milestones {
+  background-color: mediumorchid;
+  flex: 3;
+  padding: 1em;
+  min-width: 12em;
+}
+
+#agreement {
+  background-color: darkorchid;
+  flex: 4;
+  padding: 1em;
+  min-width: 12em;
+}
+
+#content {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 1200px) {
+  * {
+    min-width: auto;
+  }
+
+  #content {
+    flex-direction: column;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  #wrapper {
+    width: 100%;
+  }
+
+  header {
+    min-height: 100px;
+  }
 }
