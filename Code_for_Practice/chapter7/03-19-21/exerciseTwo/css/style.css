@@ -2,16 +2,20 @@
   box-sizing: border-box;
   margin: 0;
 }
+
 body {
   font-family: Verdana, Arial, sans-serif;
 }
+
 nav {
   float: left;
 }
+
 nav ul {
   list-style-type: none;
   padding: 1em;
 }
+
 nav a {
   text-decoration: none;
   padding: 1em;
@@ -32,17 +36,21 @@ header {
 main {
   padding: 1em;
 }
+
 h2 {
   color: #869dc7;
   font-family: arial, sans-serif;
 }
+
 figure {
   text-align: center;
 }
+
 figcaption {
   font-style: italic;
   text-align: center;
 }
+
 footer {
   background-color: #869dc7;
   font-size: 70%;
