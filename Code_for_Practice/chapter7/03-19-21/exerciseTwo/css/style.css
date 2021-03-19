@@ -57,3 +57,11 @@ footer {
   text-align: center;
   padding: 2em;
 }
+
+/* Grid layout starts here */
+
+#wrapper {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  grid-template-rows: 100px auto 50px;
+}
