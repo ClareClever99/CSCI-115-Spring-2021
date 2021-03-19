@@ -1,0 +1,6 @@
+#gallery {
+  background-color: grey;
+  display: grid;
+  grid-template-columns: repeat(3, 155px);
+  grid-template-rows: 202px 202px;
+}
