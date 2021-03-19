@@ -25,7 +25,7 @@ nav a {
 header {
   background-color: #869dc7;
   color: #00005d;
-  background-image: url(light2.jpg);
+  background-image: url(../images/light2.jpg);
   padding: 1em 0 1em 190px;
   font-size: 130%;
   min-width: 600px;
