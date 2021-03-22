@@ -84,6 +84,7 @@ nav a:hover {
 
 aside {
   padding: 1em;
+  background-color: paleturquoise;
 }
 
 main {
@@ -117,4 +118,16 @@ aside {
 
 footer {
   grid-area: footer;
+}
+
+/* Media queries */
+
+/* Tablet */
+@media (max-width: 1024px) {
+  #wrapper {
+    min-width: initial;
+    grid-template-columns: 1fr 30%;
+    grid-template-rows: 100px 75px auto 50px;
+    grid-template-areas: "header header" "nav nav" "main aside" "footer footer";
+  }
 }
