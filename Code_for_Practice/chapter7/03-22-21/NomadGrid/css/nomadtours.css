@@ -130,4 +130,8 @@ footer {
     grid-template-rows: 100px 75px auto 50px;
     grid-template-areas: "header header" "nav nav" "main aside" "footer footer";
   }
+  nav ul {
+    background-color: red;
+    justify-content: center;
+  }
 }
