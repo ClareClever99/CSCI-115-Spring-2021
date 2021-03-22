@@ -131,7 +131,7 @@ footer {
     grid-template-areas: "header header" "nav nav" "main aside" "footer footer";
   }
   nav ul {
-    background-color: red;
+    background-color: lightgreen;
     justify-content: center;
   }
 }
