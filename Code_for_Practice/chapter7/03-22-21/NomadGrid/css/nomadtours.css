@@ -11,6 +11,14 @@ body {
 #wrapper {
   width: 1020px;
   background-color: white;
+
+  /* Display items in a grid */
+  display: grid;
+  grid-template-columns: 150px 1fr 30%;
+  grid-template-rows: 100px auto 50px;
+  grid-template-areas:
+    "header header header"
+    "nav main aside" "footer footer footer";
 }
 
 header {
@@ -45,6 +53,7 @@ nav ul {
 nav ul {
   list-style-type: none;
 }
+
 nav li {
   width: 20%;
   min-width: 6em;
@@ -57,12 +66,15 @@ nav li {
 nav a {
   text-decoration: none;
 }
+
 nav a:link {
   color: #e0eee0;
 }
+
 nav a:visited {
   color: #c1cdc1;
 }
+
 nav a:hover {
   color: #32cd32;
 }
