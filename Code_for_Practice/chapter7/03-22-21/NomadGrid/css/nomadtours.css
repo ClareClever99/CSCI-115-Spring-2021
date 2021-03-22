@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #c5e3bf;
+  margin: 0;
+}
+
+#wrapper {
+  width: 1020px;
+  background-color: white;
+}
+
+header {
+  background-image: url(../images/hero_image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  text-align: center;
+  color: #4a7023;
+  font-size: 250%;
+  text-shadow: 2px 2px 1px #000000;
+}
+
+h2 {
+  color: #4a7023;
+}
+
+nav {
+  font-size: 120%;
+}
+
+nav ul {
+  padding-left: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+nav ul {
+  list-style-type: none;
+}
+nav li {
+  width: 20%;
+  min-width: 6em;
+  font-size: 110%;
+  text-align: center;
+  background-color: #308014;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+nav a {
+  text-decoration: none;
+}
+nav a:link {
+  color: #e0eee0;
+}
+nav a:visited {
+  color: #c1cdc1;
+}
+nav a:hover {
+  color: #32cd32;
+}
+
+aside {
+  padding: 1em;
+}
+
+main {
+  padding: 0 1em 1em;
+}
+
+footer {
+  background-color: #b2d0b4;
+  text-align: center;
+  font-style: italic;
+  padding: 1em;
+}
