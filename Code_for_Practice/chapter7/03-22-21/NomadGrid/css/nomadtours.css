@@ -81,3 +81,25 @@ footer {
   font-style: italic;
   padding: 1em;
 }
+
+/* Give them names; it's like mapping out the elements */
+
+header {
+  grid-area: header;
+}
+
+nav {
+  grid-area: nav;
+}
+
+main {
+  grid-area: main;
+}
+
+aside {
+  grid-area: aside;
+}
+
+footer {
+  grid-area: footer;
+}
