@@ -44,35 +44,13 @@ figcaption {
   font-size: 1.25em;
 }
 
-.IMGonArtworkPage {
-  width: 50%;
-  height: auto;
-}
-
-.aboutIMG {
-  width: 40%;
-  height: auto;
-  padding: 10px;
-  min-width: 155px;
-}
-
-.indexIMG {
-  width: 70%;
-}
-
-header figure figcaption {
-  padding-left: 2em;
-}
-
-.contentWrap {
-  width: 93%;
-  margin: auto;
-}
-
-/* Styles to configure navigation links as horizontal areas */
+/* Styles to configure navigation links */
 nav ul {
   list-style-type: none;
   padding-left: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
 }
 nav li {
   text-align: center;
@@ -82,26 +60,21 @@ nav li {
   border-radius: 8px;
   width: 130%;
 }
+nav {
+  background-color: lightblue;
+  border-radius: 8px;
+}
+
 nav a {
   text-decoration: none;
   font-weight: bold;
 }
+
 nav a:link {
   color: #00005d;
 }
 nav a:hover {
   color: slateblue;
-}
-
-nav ul {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-around;
-}
-
-nav {
-  background-color: lightblue;
-  border-radius: 8px;
 }
 
 @media (max-width: 800px) {
