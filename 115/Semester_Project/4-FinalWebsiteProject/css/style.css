@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Redressed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Slab:wght@600&display=swap");
+
+#wrapper {
+  width: 75%;
+  margin: auto;
+  background-color: silver;
+  padding: 1em;
+  border-radius: 0.5em;
+  min-width: 425px;
+}
+
+footer {
+  text-align: center;
+  background-color: #87ceeb;
+  border-radius: 6px;
+  clear: both;
+  min-height: 120px;
+  padding-top: 8px;
+}
+
+nav a {
+  padding-right: 15px;
+  text-decoration: none;
+  color: lightcyan;
+  font-family: "Roboto Slab", serif;
+}
+
+nav a span {
+  background-color: cadetblue;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+nav a span:hover {
+  background-color: lightblue;
+}
+
+nav a:hover {
+  color: blue;
+}
+
+nav {
+  text-align: center;
+  background-color: skyblue;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+footer p a {
+  color: white;
+  text-decoration: none;
+}
+
+footer p a:hover {
+  color: gainsboro;
+}
+
+.heroPic {
+  margin: auto;
+  width: 95%;
+  padding-top: 1em;
+}
+
+header p {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Redressed", cursive;
+  font-size: 5em;
+}
+
+ul li {
+  list-style-type: none;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-image: url(../images/vincent-van-gogh.ico);
+  height: 24px;
+  margin: 15px;
+}
+
+footer p i a {
+  color: white;
+  text-decoration: none;
+}
+
+footer p i a:hover {
+  color: gainsboro;
+}
+
+figcaption {
+  font-family: "Dancing Script", cursive;
+  font-size: 1.25em;
+}
+
+ul {
+  background-color: gainsboro;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+ul li a {
+  color: blue;
+  text-decoration: none;
+  padding-left: 35px;
+}
+
+.IMGonArtworkPage {
+  width: 50%;
+  height: auto;
+}
+
+.aboutIMG {
+  width: 40%;
+  height: auto;
+  padding: 10px;
+  min-width: 155px;
+}
+
+.indexIMG {
+  width: 70%;
+}
+
+h2 {
+  font-family: "Syne Mono", monospace;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+header figure figcaption {
+  padding-left: 2em;
+}
+
+ul li a {
+  font-family: "Akaya Telivigala", cursive;
+}
+
+.contentWrap {
+  width: 93%;
+  margin: auto;
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 3em;
+  }
+}
+@media (max-width: 1200px) {
+  body {
+    margin: 0;
+  }
+
+  #wrapper {
+    width: 100%;
+  }
+}
