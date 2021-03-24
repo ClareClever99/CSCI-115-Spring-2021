@@ -20,33 +20,6 @@ footer {
   padding-top: 8px;
 }
 
-nav a {
-  padding-right: 15px;
-  text-decoration: none;
-  color: lightcyan;
-}
-
-nav a span {
-  background-color: cadetblue;
-  padding: 6px;
-  border-radius: 4px;
-}
-
-nav a span:hover {
-  background-color: lightblue;
-}
-
-nav a:hover {
-  color: blue;
-}
-
-nav {
-  text-align: center;
-  background-color: skyblue;
-  border-radius: 6px;
-  padding: 10px;
-}
-
 footer p a {
   color: white;
   text-decoration: none;
@@ -68,15 +41,7 @@ header p {
 
 h1 {
   text-align: center;
-  font-size: 5em;
-}
-
-ul li {
-  list-style-type: none;
-  background-position: left;
-  background-repeat: no-repeat;
-  height: 24px;
-  margin: 15px;
+  font-size: 4em;
 }
 
 footer p i a {
@@ -90,19 +55,6 @@ footer p i a:hover {
 
 figcaption {
   font-size: 1.25em;
-}
-
-ul {
-  background-color: gainsboro;
-  margin: 15px;
-  padding: 15px;
-  border-radius: 4px;
-}
-
-ul li a {
-  color: blue;
-  text-decoration: none;
-  padding-left: 35px;
 }
 
 .IMGonArtworkPage {
@@ -130,11 +82,55 @@ header figure figcaption {
   margin: auto;
 }
 
+/* Styles to configure navigation links as horizontal areas */
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+nav li {
+  text-align: center;
+  background-color: #87ceeb;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+  width: 130%;
+}
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:link {
+  color: #00005d;
+}
+nav a:hover {
+  color: slateblue;
+}
+
+nav ul {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+nav {
+  background-color: lightblue;
+  border-radius: 8px;
+}
+
 @media (max-width: 800px) {
   h1 {
     font-size: 3em;
   }
-}
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  nav li {
+    width: initial;
+  }
+} /* CSS for phone */
+
 @media (max-width: 1200px) {
   body {
     margin: 0;
@@ -143,4 +139,4 @@ header figure figcaption {
   #wrapper {
     width: 100%;
   }
-}
+} /* CSS for tablet */
