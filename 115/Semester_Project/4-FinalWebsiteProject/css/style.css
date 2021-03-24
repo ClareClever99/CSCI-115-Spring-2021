@@ -44,10 +44,6 @@ h1 {
   font-size: 4em;
 }
 
-figcaption {
-  font-size: 1.25em;
-}
-
 /* Styles to configure navigation links */
 nav ul {
   list-style-type: none;
