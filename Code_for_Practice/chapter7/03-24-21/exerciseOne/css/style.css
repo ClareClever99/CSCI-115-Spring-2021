@@ -14,7 +14,7 @@ body {
 header {
   color: #00005d;
   background-color: #869dc7;
-  background-image: url(light.gif);
+  background-image: url(../images/light.gif);
   background-repeat: no-repeat;
   background-size: auto 100%;
   padding: 0.5em 0 0.5em 5.5em;
@@ -80,3 +80,38 @@ aside,
 figure {
   display: block;
 }
+
+@media (min-width: 600px) {
+  nav ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+  }
+  nav ul li {
+    border-bottom: none;
+  }
+  header {
+    grid-area: header;
+  }
+  nav {
+    grid-area: nav;
+  }
+  main {
+    grid-area: main;
+  }
+  aside {
+    grid-area: aside;
+  }
+  footer {
+    grid-area: footer;
+  }
+  #wrapper {
+    display: grid;
+    grid-template:
+      "header header"
+      "nav nav"
+      "main aside"
+      "footer footer"
+      / 55%;
+  }
+} /* end of tablet size */

@@ -1,0 +1,177 @@
+/* I began with the CSS in starter7.html. Changed colors to make my own*/
+/* #db3d3a orange 
+#efefef light gray
+#ddd6d3 next gray
+#b5aeab darker gray
+#718879 green medium 
+#2e4d43 green dark
+*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: Verdana, Arial, sans-serif;
+  background-image: url(../images/background.png);
+}
+
+#wrapper {
+  background-color: #ddd6d3;
+}
+
+header {
+  color: #718879;
+  background-color: #2e4d43;
+  /* WILL PUT IN MY HERO INSTEAD 
+		background-image: url(light.gif);
+	    background-repeat: no-repeat;		
+		background-size: auto 100%;
+*/
+  padding: 0.5em 0 0.5em 5.5em;
+  color: #db3d3a;
+}
+#hero {
+  background-image: url(../images/hero_image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 250px;
+  text-align: right;
+  color: #2e4d43;
+  text-shadow: 2px 2px 0 #718879;
+}
+main {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 1em;
+}
+aside {
+  text-align: center;
+}
+
+footer {
+  background-color: #2e4d43;
+  font-size: 90%;
+  text-align: center;
+  padding: 0.5em 0;
+  color: #efefef;
+  min-height: 100px;
+}
+
+h2 {
+  color: #db3d3a;
+  margin-top: 20px;
+  margin-bottom: 6px;
+}
+
+/*specifically for images inside the columns */
+main,
+aside img {
+  padding: 1em;
+  width: 100%;
+  height: auto;
+}
+
+/* Styles to configure navigation links as VERTICAL areas */
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
+  border-top: 1px solid #efefef;
+}
+nav li {
+  border-bottom: 1px solid #efefef;
+  text-align: center;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:link {
+  color: #2e4d43;
+}
+nav a:hover {
+  color: #f58549;
+}
+
+/* make the current page's link look different */
+nav #page {
+  font-weight: bold;
+  color: #efefef;
+}
+
+/* Force older versions of Internet Explorer to display these HTML5 elements with block display. */
+header,
+nav,
+main,
+footer,
+aside,
+figure {
+  display: block;
+}
+
+/*THE MEDIA QUERY has all of the styles that deal 
+    with the layout/re-positioning of parts
+*/
+
+@media (min-width: 600px) {
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+
+  nav ul li {
+    border-bottom: none;
+    background-color: #b5aeab;
+    width: 9em;
+    margin-right: 0.5em;
+  }
+
+  header {
+    grid-area: header;
+  }
+  nav {
+    grid-area: nav;
+  }
+  #hero {
+    grid-area: hero;
+  }
+  main {
+    grid-area: main;
+  }
+  aside {
+    grid-area: aside;
+  }
+  footer {
+    grid-area: footer;
+  }
+
+  #wrapper {
+    display: grid;
+
+    /*spread out the values of this property for easy reading*/
+    grid-template:
+      "header header"
+      "nav nav"
+      "hero hero"
+      "main aside"
+      "footer footer"
+      / 65% 35%; /*this is a shortcut for width of each col*/
+
+    width: 90%;
+    margin: auto;
+    max-width: 1200px;
+  }
+
+  header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+} /*END of query*/
+
+/* NOTE: I stopped with the refinements, but if this was real, I could go further to make it look more polished */
