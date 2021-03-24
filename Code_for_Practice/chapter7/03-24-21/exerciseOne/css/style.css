@@ -114,4 +114,41 @@ figure {
       "footer footer"
       / 55%;
   }
-} /* end of tablet size */
+} /* end of medium/tablet size */
+
+@media (min-width: 1024px) {
+  body {
+    background-color: #000066;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  header {
+    grid-area: header;
+  }
+  nav {
+    grid-area: nav;
+  }
+  main {
+    grid-area: main;
+  }
+  aside {
+    grid-area: aside;
+  }
+  footer {
+    grid-area: footer;
+  }
+  #wrapper {
+    width: 80%;
+    margin: auto;
+    max-width: 1200px;
+    display: grid;
+    grid-template:
+      "header header header"
+      "nav    main   aside"
+      "footer footer footer"
+      / 150px;
+  }
+}
