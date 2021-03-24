@@ -3,10 +3,14 @@
   margin: 0;
 }
 
+body {
+  background-image: url(../images/backgrounds/background.png);
+}
+
 #wrapper {
   width: 75%;
   margin: auto;
-  background-color: silver;
+  background-color: darkgray;
   padding: 1em;
   border-radius: 0.5em;
   min-width: 425px;
@@ -14,7 +18,7 @@
 
 footer {
   text-align: center;
-  background-color: #87ceeb;
+  background-color: lightblue;
   border-radius: 6px;
   clear: both;
   padding: 8px;
