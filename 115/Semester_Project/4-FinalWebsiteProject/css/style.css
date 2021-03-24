@@ -35,22 +35,9 @@ footer p a:hover {
   padding-top: 1em;
 }
 
-header p {
-  text-align: center;
-}
-
 h1 {
   text-align: center;
   font-size: 4em;
-}
-
-footer p i a {
-  color: white;
-  text-decoration: none;
-}
-
-footer p i a:hover {
-  color: gainsboro;
 }
 
 figcaption {
