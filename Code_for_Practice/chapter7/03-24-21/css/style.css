@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: Verdana, Arial, sans-serif;
+}
+
+#wrapper {
+  background-color: #b3c7e6;
+}
+
+header {
+  color: #00005d;
+  background-color: #869dc7;
+  background-image: url(light.gif);
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  padding: 0.5em 0 0.5em 5.5em;
+}
+main {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 1em;
+}
+aside {
+  text-align: center;
+}
+
+footer {
+  background-color: #869dc7;
+  font-size: 70%;
+  text-align: center;
+  padding: 0.5em 0;
+}
+
+h2 {
+  color: #869dc7;
+}
+img {
+  padding: 1em;
+}
+
+/* Styles to configure navigation links as horizontal areas */
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
+  border-top: 1px solid #eeeeee;
+}
+nav li {
+  border-bottom: 1px solid #eeeeee;
+  text-align: center;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:link {
+  color: #00005d;
+}
+nav a:hover {
+  color: #ff0000;
+}
+
+/* make the current page's link look different */
+nav #page {
+  font-weight: bold;
+  color: #fefefe;
+}
+
+/* Force older versions of Internet Explorer to display these HTML5 elements with block display. */
+header,
+nav,
+main,
+footer,
+aside,
+figure {
+  display: block;
+}
