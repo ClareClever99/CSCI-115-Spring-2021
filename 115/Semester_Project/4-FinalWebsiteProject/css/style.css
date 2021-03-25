@@ -105,6 +105,10 @@ nav a:hover {
   padding-left: 40px;
 }
 
+.resourceSection {
+  border-right: 1px solid black;
+}
+
 @media (max-width: 800px) {
   h1 {
     font-size: 3em;
@@ -122,6 +126,10 @@ nav a:hover {
   }
   nav li {
     width: initial;
+  }
+
+  .resourceSection {
+    border: none;
   }
 } /* CSS for phone */
 
