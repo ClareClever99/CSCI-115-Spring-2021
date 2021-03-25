@@ -52,14 +52,21 @@ nav ul {
   flex-flow: row nowrap;
   justify-content: space-around;
 }
+
 nav li {
+  padding: 5px;
+  margin: 5px;
+  width: 130%;
+}
+
+nav li a p {
   text-align: center;
   background-color: #87ceeb;
   padding: 10px;
   margin: 10px;
   border-radius: 8px;
-  width: 130%;
 }
+
 nav {
   background-color: lightblue;
   border-radius: 8px;
@@ -68,6 +75,10 @@ nav {
 nav a {
   text-decoration: none;
   font-weight: bold;
+}
+
+nav li a p:hover {
+  background-color: steelblue;
 }
 
 nav a:link {
