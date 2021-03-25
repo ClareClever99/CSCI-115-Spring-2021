@@ -158,6 +158,8 @@ nav a:hover {
 
   .resourceSection {
     border: none;
+    border-bottom: 1px solid black;
+    margin-top: 20px;
   }
 } /* CSS for phone */
 
