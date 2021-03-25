@@ -134,9 +134,9 @@ nav a:hover {
 }
 
 .resourceSection {
-  border-right: 1px solid seagreen;
-  border-left: 1px solid seagreen;
-  min-height: 575px;
+  border-right: 1px solid darkblue;
+  border-left: 1px solid darkblue;
+  min-height: 100%;
 }
 
 @media (max-width: 800px) {
@@ -160,8 +160,6 @@ nav a:hover {
 
   .resourceSection {
     border: none;
-    border-bottom: 1px solid seagreen;
-    margin-top: 20px;
     min-height: initial;
   }
 } /* CSS for phone */
@@ -173,5 +171,8 @@ nav a:hover {
 
   #wrapper {
     width: 100%;
+  }
+  .resourceSection {
+    border: none;
   }
 } /* CSS for tablet */
