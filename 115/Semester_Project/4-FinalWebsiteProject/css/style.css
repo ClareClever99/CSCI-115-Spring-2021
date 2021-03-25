@@ -94,7 +94,7 @@ nav a:hover {
   background-repeat: no-repeat;
   background-image: url(../images/icons/artificial-intelligenceOne.png);
   min-height: 34px;
-  margin: 20px;
+  margin-bottom: 20px;
 }
 .bulletPointResourcesOne li a {
   text-decoration: none;
@@ -109,7 +109,7 @@ nav a:hover {
   background-repeat: no-repeat;
   background-image: url(../images/icons/artificial-intelligenceTwo.png);
   min-height: 34px;
-  margin: 20px;
+  margin-bottom: 20px;
 }
 .bulletPointResourcesTwo li a {
   text-decoration: none;
@@ -124,7 +124,7 @@ nav a:hover {
   background-repeat: no-repeat;
   background-image: url(../images/icons/artificial-intelligenceThree.png);
   min-height: 34px;
-  margin: 20px;
+  margin-bottom: 20px;
 }
 .bulletPointResourcesThree li a {
   text-decoration: none;
