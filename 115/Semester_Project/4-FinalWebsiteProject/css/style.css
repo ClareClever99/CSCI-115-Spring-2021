@@ -88,20 +88,48 @@ nav a:hover {
   color: slateblue;
 }
 
-.bulletPointResources li {
+.bulletPointResourcesOne li {
   list-style-type: none;
   background-position: left;
   background-repeat: no-repeat;
-  background-image: url(../images/icons/artificial-intelligence.png);
+  background-image: url(../images/icons/artificial-intelligenceOne.png);
   min-height: 34px;
   margin: 20px;
 }
-
-.bulletPointResources li a {
+.bulletPointResourcesOne li a {
   text-decoration: none;
 }
+.bulletPointResourcesOne li {
+  padding-left: 40px;
+}
 
-.bulletPointResources li {
+.bulletPointResourcesTwo li {
+  list-style-type: none;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-image: url(../images/icons/artificial-intelligenceTwo.png);
+  min-height: 34px;
+  margin: 20px;
+}
+.bulletPointResourcesTwo li a {
+  text-decoration: none;
+}
+.bulletPointResourcesTwo li {
+  padding-left: 40px;
+}
+
+.bulletPointResourcesThree li {
+  list-style-type: none;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-image: url(../images/icons/artificial-intelligenceThree.png);
+  min-height: 34px;
+  margin: 20px;
+}
+.bulletPointResourcesThree li a {
+  text-decoration: none;
+}
+.bulletPointResourcesThree li {
   padding-left: 40px;
 }
 
