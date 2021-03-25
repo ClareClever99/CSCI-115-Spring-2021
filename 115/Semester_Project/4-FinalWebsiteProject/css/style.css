@@ -88,6 +88,23 @@ nav a:hover {
   color: slateblue;
 }
 
+.bulletPointResources li {
+  list-style-type: none;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-image: url(../images/icons/artificial-intelligence.png);
+  min-height: 34px;
+  margin: 20px;
+}
+
+.bulletPointResources li a {
+  text-decoration: none;
+}
+
+.bulletPointResources li {
+  padding-left: 40px;
+}
+
 @media (max-width: 800px) {
   h1 {
     font-size: 3em;
