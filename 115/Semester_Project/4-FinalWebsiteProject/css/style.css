@@ -98,6 +98,12 @@ nav a:hover {
     flex-wrap: nowrap;
   }
   nav li {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  nav li {
     width: initial;
   }
 } /* CSS for phone */
