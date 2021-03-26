@@ -1,0 +1,9 @@
+body {
+  background-color: beige;
+}
+
+table {
+  border: 5px double chocolate;
+  background-color: white;
+  width: 80%;
+}
