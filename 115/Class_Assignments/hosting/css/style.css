@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-image: url(../images/backgrounds/background.png);
+}
+
+#wrapper {
+  width: 75%;
+  margin: auto;
+  background-color: lightcoral;
+  border-radius: 0.5em;
+  min-width: 425px;
+}
+
+main {
+  padding: 2em;
+}
+
+footer {
+  text-align: center;
+  background-color: lightsalmon;
+  border-radius: 6px;
+  clear: both;
+  padding: 8px;
+}
+
+footer small a {
+  color: darkred;
+}
+
+footer small a:hover {
+  color: red;
+}
+
+footer p a {
+  color: darkred;
+  text-decoration: none;
+}
+
+footer p a:hover {
+  color: red;
+}
+
+.heroPic {
+  margin: auto;
+  width: 100%;
+  border-radius: 0.5em;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4em;
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 3em;
+  }
+} /* CSS for phone */
+
+@media (max-width: 1200px) {
+  body {
+    margin: 0;
+  }
+
+  #wrapper {
+    width: 100%;
+  }
+} /* CSS for tablet */
