@@ -17,6 +17,8 @@ body {
 
 main {
   padding: 2em;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 footer {
@@ -25,6 +27,14 @@ footer {
   border-radius: 6px;
   clear: both;
   padding: 8px;
+}
+
+h2 {
+  color: whitesmoke;
+}
+
+p {
+  font-family: "Courier New", Courier, monospace;
 }
 
 footer small a {
