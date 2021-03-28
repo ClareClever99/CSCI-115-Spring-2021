@@ -78,6 +78,7 @@ th {
   border: 1px solid coral;
   padding: 0.75em;
   font-family: Arial, sans-serif;
+  text-align: center;
 }
 
 th {
@@ -128,3 +129,46 @@ tr:first-of-type {
     width: 100%;
   }
 } /* CSS for tablet */
+
+/*
+Code for responsive table from... https://css-tricks.com/responsive-data-tables/
+*/
+@media only screen and (max-width: 1000px),
+  (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Force table to not be like tables anymore */
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
+  }
+
+  tr {
+    border: 1px solid #ccc;
+  }
+
+  td {
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+  }
+  caption {
+    color: orangered;
+    text-align: center;
+    display: flex;
+  }
+
+  td:before {
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+  }
+}
