@@ -10,7 +10,7 @@ body {
 #wrapper {
   width: 75%;
   margin: auto;
-  background-color: coral;
+  background-color: lightcoral;
   border-radius: 0.5em;
   min-width: 425px;
 }
@@ -23,7 +23,7 @@ main {
 
 footer {
   text-align: center;
-  background-color: lightcoral;
+  background-color: coral;
   border-radius: 6px;
   clear: both;
   padding: 8px;
