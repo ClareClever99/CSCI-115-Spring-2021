@@ -1,0 +1,19 @@
+.tan_table {
+  width: 75%;
+  border: 3px solid maroon;
+  border-collapse: collapse;
+}
+
+.tan_table th,
+td {
+  border: 1px solid rgba(99, 0, 0, 0.7);
+  padding: 0.3em;
+}
+
+/* tr:nth-of-type(even) {
+  background-color: bisque;
+} */
+
+tr:nth-of-type(4n-2) {
+  background-color: bisque;
+}
