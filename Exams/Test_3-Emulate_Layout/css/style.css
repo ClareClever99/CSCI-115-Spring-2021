@@ -82,6 +82,21 @@ header img {
   z-index: 2;
 }
 
+.col-md-4 p img {
+  width: 50%;
+  float: left;
+  padding: 10px;
+}
+
+.col-md-4 p a {
+  text-decoration: none;
+  color: goldenrod;
+}
+.col-md-4 p a:hover {
+  text-decoration: none;
+  color: gold;
+}
+
 nav ul {
   list-style-type: none;
   padding-left: 0;
@@ -123,5 +138,16 @@ nav a:hover {
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: flex-start;
+  }
+
+  nav li {
+    border-bottom: 1px solid black;
+  }
+  nav li:last-of-type {
+    border: none;
+  }
+
+  #heroImg {
+    height: 200px;
   }
 } /* end of medium/tablet size */
