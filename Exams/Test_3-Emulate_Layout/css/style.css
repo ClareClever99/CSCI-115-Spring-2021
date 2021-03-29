@@ -2,6 +2,13 @@
 }
 
 #topHead {
+  max-width: 1000px;
+}
+
+#socialMedia {
+}
+
+#contactInfo {
 }
 
 @media (min-width: 600px) {
