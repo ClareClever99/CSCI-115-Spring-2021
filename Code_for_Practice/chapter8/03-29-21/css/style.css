@@ -40,3 +40,8 @@ th:second-child {
 th:last-child {
   width: 25%;
 }
+
+caption {
+  text-align: left;
+  font-style: italic;
+}
