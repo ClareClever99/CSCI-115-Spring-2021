@@ -17,3 +17,7 @@ td {
 tr:nth-of-type(4n-2) {
   background-color: bisque;
 }
+
+.tan_table a {
+  text-decoration: none;
+}
