@@ -7,6 +7,12 @@
   max-width: 1000px;
   height: 50px;
   margin: auto;
+  padding: 15px;
+}
+
+#socialMedia a {
+  text-decoration: none;
+  padding: 5px;
 }
 
 #socialMedia {
@@ -16,6 +22,7 @@
 #contactInfo {
   float: right;
   padding-top: 8px;
+  font-size: 1.25em;
 }
 
 @media (min-width: 600px) {
