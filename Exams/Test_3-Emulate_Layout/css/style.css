@@ -46,6 +46,7 @@ header img {
 .image1 {
   position: absolute;
   z-index: 1;
+  width: 100%;
 }
 .image2 {
   position: absolute;
@@ -60,5 +61,17 @@ header img {
   z-index: 2;
 }
 
-@media (min-width: 600px) {
+@media (max-width: 600px) {
+  #topHead {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+  .image1 {
+    padding-top: 2em;
+  }
+  .image2 {
+    padding-top: 2em;
+  }
 } /* end of medium/tablet size */
