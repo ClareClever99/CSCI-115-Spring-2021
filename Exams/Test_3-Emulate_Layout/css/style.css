@@ -47,7 +47,7 @@
 }
 
 main {
-  margin-top: 150px;
+  margin-top: 135px;
 }
 
 header {
@@ -72,7 +72,7 @@ header img {
   position: absolute;
   margin-left: auto;
   margin-right: auto;
-  top: 55px;
+  top: 60px;
   left: 0;
   right: 0;
   text-align: center;
@@ -90,12 +90,10 @@ nav ul {
   justify-content: space-around;
 }
 nav li {
-  border-bottom: 1px solid #efefef;
   text-align: center;
   padding-right: 20px;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
   font-size: 1.15em;
+  border: none;
 }
 nav a {
   text-decoration: none;
