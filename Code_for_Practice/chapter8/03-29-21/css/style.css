@@ -27,3 +27,16 @@ tr:first-of-type {
   background-color: maroon;
   color: white;
 }
+
+th:first-child {
+  width: 50%;
+  background-color: coral;
+}
+
+th:second-child {
+  width: 25%;
+}
+
+th:last-child {
+  width: 25%;
+}
