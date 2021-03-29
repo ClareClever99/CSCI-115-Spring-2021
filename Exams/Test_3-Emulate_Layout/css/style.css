@@ -4,9 +4,9 @@
 }
 
 #wrapper {
-  margin: auto;
   max-width: 1000px;
   margin-top: 150px;
+  margin: auto;
 }
 
 #topHead {
@@ -29,6 +29,11 @@
   float: right;
   padding-top: 8px;
   font-size: 1.25em;
+}
+
+#heroImg {
+  max-width: 1000px;
+  margin-top: 150px;
 }
 
 header {
