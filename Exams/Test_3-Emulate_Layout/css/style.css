@@ -1,14 +1,21 @@
 #wrapper {
+  margin: auto;
+  width: 100%;
 }
 
 #topHead {
   max-width: 1000px;
+  height: 50px;
+  margin: auto;
 }
 
 #socialMedia {
+  float: left;
 }
 
 #contactInfo {
+  float: right;
+  padding-top: 8px;
 }
 
 @media (min-width: 600px) {
