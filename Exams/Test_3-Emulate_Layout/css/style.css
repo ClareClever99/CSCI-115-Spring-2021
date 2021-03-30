@@ -217,7 +217,7 @@ footer p b {
 
   nav li {
     border-bottom: 2px solid black;
-    padding: 5px;
+    padding: 8px;
     text-align: center;
   }
   nav li:last-of-type {
