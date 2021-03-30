@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&display=swap");
 
 * {
   box-sizing: border-box;
@@ -176,6 +177,11 @@ footer button {
 #wrapper p {
   font-family: "Kiwi Maru", serif;
   font-size: 0.85em;
+}
+
+footer h6 {
+  color: lime;
+  font-family: "Averia Serif Libre", cursive;
 }
 
 @media (max-width: 600px) {
