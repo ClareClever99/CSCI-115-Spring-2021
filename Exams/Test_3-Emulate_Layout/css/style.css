@@ -256,4 +256,15 @@ footer p b {
     border-top: 1px solid black;
     padding-top: 10px;
   }
+
+  .col-md-4 {
+    text-align: center;
+  }
+  .col-md-4:last-of-type {
+    padding-bottom: 10px;
+  }
+  .col-md-4 h5 {
+    border-top: 1px solid black;
+    padding-top: 8px;
+  }
 } /* end of medium/tablet size */
