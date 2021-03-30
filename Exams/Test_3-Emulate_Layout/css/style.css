@@ -25,6 +25,15 @@
   float: left;
 }
 
+#socialMediaFooter {
+  float: left;
+}
+
+#socialMediaFooter a {
+  text-decoration: none;
+  padding: 5px;
+}
+
 #contactInfo {
   float: right;
   padding-top: 8px;
@@ -132,12 +141,24 @@ footer {
 }
 
 footer p {
-  font-size: 0.65em;
+  font-size: 0.75em;
+}
+
+footer a {
+  color: lightgreen;
+  text-decoration: none;
+}
+footer a:hover {
+  color: wheat;
 }
 
 footer section {
   margin: auto;
   max-width: 1000px;
+}
+
+footer button {
+  margin-top: 20px;
 }
 
 @media (max-width: 600px) {
@@ -179,5 +200,13 @@ footer section {
     width: 50%;
     padding: 10px;
     float: left;
+  }
+  footer {
+    text-align: center;
+  }
+  #socialMediaFooter {
+    float: none;
+    display: flex;
+    justify-content: center;
   }
 } /* end of medium/tablet size */
