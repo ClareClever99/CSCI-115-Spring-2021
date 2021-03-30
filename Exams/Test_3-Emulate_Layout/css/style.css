@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Brygada+1918&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap");
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -38,6 +42,7 @@
   float: right;
   padding-top: 8px;
   font-size: 1.25em;
+  font-family: "Brygada 1918", serif;
 }
 
 #contactInfo a {
@@ -119,14 +124,16 @@ nav li {
   padding-right: 20px;
   font-size: 1.15em;
   border: none;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 2px;
 }
 nav a {
   text-decoration: none;
   font-weight: bold;
-  color: green;
+  color: limegreen;
 }
 nav a:hover {
-  color: slateblue;
+  color: forestgreen;
 }
 
 .col-md-4 img {
@@ -159,6 +166,10 @@ footer section {
 
 footer button {
   margin-top: 20px;
+}
+
+#wrapper h5 {
+  font-family: "New Tegomin", serif;
 }
 
 @media (max-width: 600px) {
