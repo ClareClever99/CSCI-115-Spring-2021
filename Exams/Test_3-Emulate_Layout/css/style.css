@@ -85,12 +85,16 @@ header img {
   position: absolute;
   z-index: 1;
   width: 100%;
+  border-top: 1px limegreen solid;
+  border-bottom: 1px limegreen solid;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 .image2 {
   position: absolute;
   margin-left: auto;
   margin-right: auto;
-  top: 60px;
+  top: 62.5px;
   left: 0;
   right: 0;
   text-align: center;
@@ -199,12 +203,14 @@ footer p b {
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: flex-start;
+    margin-bottom: 1em;
   }
   .image1 {
-    padding-top: 2em;
+    border: none;
+    padding: 0;
   }
   .image2 {
-    padding-top: 2em;
+    margin-top: 1em;
   }
 
   nav ul {
