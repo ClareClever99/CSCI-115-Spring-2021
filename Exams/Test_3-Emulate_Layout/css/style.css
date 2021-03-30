@@ -124,6 +124,22 @@ nav a:hover {
   width: 100%;
 }
 
+footer {
+  margin: auto;
+  background-color: seagreen;
+  color: white;
+  padding-top: 20px;
+}
+
+footer p {
+  font-size: 0.65em;
+}
+
+footer section {
+  margin: auto;
+  max-width: 1000px;
+}
+
 @media (max-width: 600px) {
   #topHead {
     display: flex;
