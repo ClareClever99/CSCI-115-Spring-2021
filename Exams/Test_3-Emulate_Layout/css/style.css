@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Brygada+1918&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap");
 
 * {
   box-sizing: border-box;
@@ -170,6 +171,11 @@ footer button {
 
 #wrapper h5 {
   font-family: "New Tegomin", serif;
+}
+
+#wrapper p {
+  font-family: "Kiwi Maru", serif;
+  font-size: 0.85em;
 }
 
 @media (max-width: 600px) {
