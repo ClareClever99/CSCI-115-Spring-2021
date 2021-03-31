@@ -193,6 +193,18 @@ textarea {
 }
 
 @media (min-width: 600px) {
+  form {
+    width: 60%;
+    display: grid;
+    grid-gap: 1em;
+    grid-column: 10em 1fr;
+  }
+  .submit {
+    width: 9em;
+  }
+  #reshero {
+    background-size: 100% 100%;
+  }
   h1 {
     font-size: 2em;
     letter-spacing: 0.25em;
