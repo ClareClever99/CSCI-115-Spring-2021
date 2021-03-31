@@ -65,4 +65,7 @@ nav a:hover {
 
 nav ul ul {
   position: absolute;
+  padding: 0;
+  text-align: left;
+  margin-top: 8px;
 }
