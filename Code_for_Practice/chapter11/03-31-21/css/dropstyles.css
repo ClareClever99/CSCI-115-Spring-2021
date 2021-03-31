@@ -34,3 +34,8 @@ nav {
   padding-right: 5px;
   position: relative;
 }
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+}
