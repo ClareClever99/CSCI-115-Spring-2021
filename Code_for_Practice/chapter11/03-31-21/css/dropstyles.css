@@ -47,3 +47,8 @@ nav li {
   border: 2px solid yellow;
   background-color: dodgerblue;
 }
+
+nav a {
+  text-decoration: none;
+  display: block;
+}
