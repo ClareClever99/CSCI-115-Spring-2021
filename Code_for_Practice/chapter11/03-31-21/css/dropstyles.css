@@ -32,4 +32,5 @@ nav {
   background-color: #bb0033;
   text-align: right;
   padding-right: 5px;
+  position: relative;
 }
