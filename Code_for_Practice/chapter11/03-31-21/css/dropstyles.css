@@ -43,4 +43,7 @@ nav ul {
 nav li {
   padding: 0.5em;
   display: inline-block;
+  width: 90px;
+  border: 2px solid yellow;
+  background-color: dodgerblue;
 }
