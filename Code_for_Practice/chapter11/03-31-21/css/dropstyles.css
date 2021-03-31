@@ -75,4 +75,12 @@ nav ul ul {
 nav ul ul li {
   border: 1px solid red;
   display: block;
+  width: 8em;
+  padding-left: 1em;
+  margin: 0;
+  background-color: brown;
+}
+
+nav li:hover ul {
+  display: block;
 }
