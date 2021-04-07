@@ -100,3 +100,19 @@ footer {
 	transform: rotate(360deg) scale(1.5);
 	background: yellow; 
 }
+
+.pic {
+	height: 300px;
+	width: 300px;
+	overflow: hidden;
+	box-shadow: 5px 5px 5px #111;
+}
+.shrink img {
+	height: 400px;
+	width: 400px;
+	transition: all 1s ease;
+}
+.shrink img:hover {
+	width: 300px;
+	height: 300px;
+}
