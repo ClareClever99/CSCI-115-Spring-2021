@@ -1,0 +1,32 @@
+/* We probably won't get to this hover effect, but try it when you get a chance. 
+   The purpose is to reduce the image when it's hovered over. 
+*/
+
+
+/* Paste this image anywhere in your HTML. The image is already there */
+
+<div class="shrink pic">
+  <img src="http://moorec.people.cofc.edu/manwalk.jpg" alt="handsome">
+</div>
+ 
+
+
+
+/*Paste the styles in your CSS*/
+
+.pic {
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  box-shadow: 5px 5px 5px #111;  
+}
+
+ .shrink img {
+  height: 400px;
+  width: 400px;
+  transition: all 1s ease;
+}
+.shrink img:hover {
+  width: 300px;
+  height: 300px;
+}

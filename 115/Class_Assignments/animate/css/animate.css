@@ -1,0 +1,48 @@
+* {  box-sizing: border-box;}
+
+body {
+	background-color: black;  
+    margin:0;
+    
+}
+ 
+#wrapper {
+	width: 900px; 
+	background-color: orange; 
+	margin: auto; 
+}
+
+header {
+	height: 250px; 
+	background: #b23232;
+    color: lightsalmon;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#leftcol {
+	background-color: tomato; 
+	padding: 20px; 
+    width: 33%;
+}
+
+#rightcol {
+    background-color: peachpuff; 
+    padding: 15px; 		
+    width: 66%; /* leave 1% gap between for color*/
+	}
+	
+p, li {	
+	font-family: 'century gothic', arial, verdana; 
+} 
+
+footer {
+	clear: both; 
+	padding: 20px; 
+    background-color: #b8ff65; 
+}	
+
