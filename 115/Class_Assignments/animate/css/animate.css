@@ -59,3 +59,21 @@ footer {
     85.8% { background: indigo; }
     100% {background: violet; }
 }
+
+@keyframes christine {
+    0%   {left:0px; top:0px;  }
+    25%  {left:800px; top:0px; }
+    50%  {left:800px; top:100px;transform: rotateY(180deg);}
+    75%  {left:0px; top:100px; transform: rotateY(90deg);}
+    100% {left:0px; top:0px;}
+}
+
+/*  The animation is being applied to #anim element */
+#anim {
+    width: 100px;
+    position: relative; 
+    top: 0; 
+    animation-name: christine;
+    animation-duration: 4s;
+    animation-iteration-count: 3; 
+}
