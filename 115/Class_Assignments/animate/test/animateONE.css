@@ -1,0 +1,29 @@
+
+/* 
+To set background ROYGBIV rainbow. Of course, we would not harm a real webpage like this. Maybe apply to a smaller element that needs dressing up. (eg. background to png img).
+
+Furthermore, I would use a monochrome-like color scheme to keep it from being outlandish.( eg. navy blue and black)
+
+The loud and garrulous colors here are to make the example noticable.
+*/
+
+@keyframes rainbow {
+    0% { background: violet;  }
+    14.3% { background: red; }
+    28.6% { background: orange;    }
+    42.9% { background: yellow;}
+    57.2% { background: green;}
+    71.5% { background: blue;}
+    85.8% { background: indigo; }
+    100% {background: violet; }
+}
+ 
+/*ADD THIS TO YOUR body element */
+body {
+    animation-name: rainbow; 
+    animation-duration: 20s; 
+    animation-timing-function: linear; 
+    animation-iteration-count: infinite;
+}
+	
+/* Or you can use shortcut: animation: rainbow 20s linear infinite; */
