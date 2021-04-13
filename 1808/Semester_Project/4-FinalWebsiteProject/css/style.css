@@ -145,6 +145,10 @@ nav a:hover {
   padding-bottom: 0;
 }
 
+.indexContent p a {
+  text-decoration: none;
+}
+
 main .row .col-md-7.homePageLeft {
   border-right: 1px solid black;
 }
