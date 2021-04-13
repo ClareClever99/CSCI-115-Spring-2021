@@ -153,6 +153,58 @@ main .row .col-md-7.homePageLeft {
   border-right: 1px solid black;
 }
 
+
+/* Styles for the table... */
+table {
+  width: 90%;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+td,
+th {
+  border: 1px solid slateblue;
+  padding: 0.75em;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+th {
+  text-align: center;
+  font-size: 1.25em;
+}
+
+td {
+  color: black;
+  text-align: center;
+  font-size: 1em;
+}
+
+caption {
+  font-family: Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 1.65em;
+  padding-bottom: 0.5em;
+  color: whitesmoke;
+  text-align: center;
+  caption-side: top;
+}
+
+tr:nth-of-type(even) {
+  background-color: whitesmoke;
+}
+tr:nth-of-type(odd) {
+  background-color: lightgray;
+}
+tr:first-of-type {
+  background-color: slategray;
+  color: whitesmoke;
+}
+
+td.expression {
+  font-weight: bold;
+}
+
 @media (max-width: 500px) {
   .shrinkHeading {
     font-size: 2em;
@@ -203,3 +255,47 @@ main .row .col-md-7.homePageLeft {
     border: none;
   }
 } /* CSS for tablet */
+
+/*
+Code for responsive table from... https://css-tricks.com/responsive-data-tables/
+*/
+@media only screen and (max-width: 1000px),
+  (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Force table to not be like tables anymore */
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
+  }
+  table {
+    border: none;
+  }
+  tr {
+    border: 1px solid #ccc;
+  }
+
+  td {
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+  }
+  caption {
+    text-align: center;
+    display: flex;
+  }
+
+  td:before {
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+  }
+}
