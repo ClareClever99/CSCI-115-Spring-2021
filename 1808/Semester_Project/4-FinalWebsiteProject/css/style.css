@@ -145,6 +145,10 @@ nav a:hover {
   padding-bottom: 0;
 }
 
+main .row .col-md-7.homePageLeft {
+  border-right: 1px solid black;
+}
+
 @media (max-width: 500px) {
   .shrinkHeading {
     font-size: 2em;
@@ -174,8 +178,13 @@ nav a:hover {
     border: none;
     min-height: initial;
   }
+
   .indexContent figure img {
     width: 55%;
+  }
+
+  main .row .col-md-7.homePageLeft {
+    border: none;
   }
 } /* CSS between tablet and phone */
 
