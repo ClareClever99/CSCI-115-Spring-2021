@@ -145,6 +145,12 @@ nav a:hover {
   padding-bottom: 0;
 }
 
+@media (max-width: 500px) {
+  .shrinkHeading {
+    font-size: 2em;
+  }
+} /* CSS for phone */
+
 @media (max-width: 800px) {
   h1 {
     font-size: 3em;
@@ -171,7 +177,7 @@ nav a:hover {
   .indexContent figure img {
     width: 55%;
   }
-} /* CSS for phone */
+} /* CSS between tablet and phone */
 
 @media (max-width: 1200px) {
   body {
