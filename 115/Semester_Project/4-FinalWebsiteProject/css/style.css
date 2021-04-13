@@ -139,7 +139,7 @@ nav a:hover {
 }
 
 .indexContent figure img {
-  width: 25%;
+  width: 35%;
   padding: 1em;
   padding-top: 0;
   padding-bottom: 0;
@@ -167,6 +167,9 @@ nav a:hover {
   .resourceSection {
     border: none;
     min-height: initial;
+  }
+  .indexContent figure img {
+    width: 55%;
   }
 } /* CSS for phone */
 
