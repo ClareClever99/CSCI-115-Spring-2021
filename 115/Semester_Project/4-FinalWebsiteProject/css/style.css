@@ -139,6 +139,13 @@ nav a:hover {
   min-height: 100%;
 }
 
+.indexContent figure img {
+  width: 25%;
+  padding: 1em;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 @media (max-width: 800px) {
   h1 {
     font-size: 3em;
