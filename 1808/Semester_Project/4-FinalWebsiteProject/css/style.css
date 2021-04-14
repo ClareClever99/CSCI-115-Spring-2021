@@ -211,7 +211,10 @@ td.expression {
 
 #centerEthicsDiv {
   text-align: center;
-  margin-top: 1em;  
+}
+
+#centerEthicsDiv p a {
+  text-decoration: none;
 }
 
 @media (max-width: 500px) {
@@ -256,7 +259,6 @@ td.expression {
   }
   #centerEthicsDiv {
     text-align: left;
-    margin-top: 0;
   }
 } /* CSS between tablet and phone */
 
