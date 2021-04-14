@@ -1,3 +1,8 @@
 body {
     background-color: slategray;
 }
+
+form {
+    background-color: whitesmoke;
+    padding: 2em;
+}
