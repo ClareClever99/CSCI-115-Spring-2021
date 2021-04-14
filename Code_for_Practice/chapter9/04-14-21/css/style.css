@@ -5,4 +5,5 @@ body {
 form {
     background-color: whitesmoke;
     padding: 2em;
+    width: 60%;
 }
