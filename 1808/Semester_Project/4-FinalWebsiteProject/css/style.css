@@ -138,14 +138,14 @@ nav a:hover {
   min-height: 100%;
 }
 
-.indexContent figure img {
+.contentSection figure img {
   width: 35%;
   padding: 1em;
   padding-top: 0;
   padding-bottom: 0;
 }
 
-.indexContent p a {
+.contentSection p a {
   text-decoration: none;
 }
 
@@ -157,6 +157,17 @@ main .row .col-md-6.pageLeft {
   border-right: 1px solid black;
 }
 
+.bottomEthicsImages {
+text-align: center;
+}
+
+.bottomEthicsImages figure img {
+  width: 75%;
+  height: ;
+  padding: 1em;
+  padding-top: 0;
+  padding-bottom: 0;
+}
 
 /* Styles for the table... */
 table {
@@ -247,7 +258,7 @@ td.expression {
     min-height: initial;
   }
 
-  .indexContent figure img {
+  .contentSection figure img {
     width: 55%;
   }
 
@@ -259,6 +270,12 @@ td.expression {
   }
   #centerEthicsDiv {
     text-align: left;
+  }
+  .bottomEthicsImages figure img {
+    width: 85%;
+    padding: 1em;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 } /* CSS between tablet and phone */
 
