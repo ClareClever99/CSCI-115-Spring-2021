@@ -157,8 +157,12 @@ main .row .col-md-6.pageLeft {
   border-right: 1px solid black;
 }
 
+main .row .col-md-5.pageLeft {
+  border-right: 1px solid black;
+}
+
 .bottomEthicsImages {
-text-align: center;
+  text-align: center;
 }
 
 #aboutInfo {
@@ -285,6 +289,9 @@ td.expression {
     border: none;
   }
   main .row .col-md-6.pageLeft {
+    border: none;
+  }
+  main .row .col-md-5.pageLeft {
     border: none;
   }
   #centerEthicsDiv {
