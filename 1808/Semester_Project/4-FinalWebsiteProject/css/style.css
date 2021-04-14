@@ -161,6 +161,22 @@ main .row .col-md-6.pageLeft {
 text-align: center;
 }
 
+#aboutInfo {
+  text-align: center;
+
+}
+
+#aboutInfo {
+  text-align: center;
+  width: 40%;
+  margin: auto;
+  font-size: 18px;
+}
+
+#aboutInfo a {
+  text-decoration: none;
+}
+
 .bottomEthicsImages figure img {
   width: 75%;
   padding: 1em;
