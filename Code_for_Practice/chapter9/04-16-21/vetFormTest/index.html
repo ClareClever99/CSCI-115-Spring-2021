@@ -14,10 +14,15 @@
         <form action="" method="POST">
           <fieldset>
             <legend>About Your Pet</legend>
+            <!-- Name -->
             <label for="fullName">Owner's Full Name</label>
             <input type="text" name="fullName" id="fullName" />
+
+            <!-- Email -->
             <label for="email">Email Address</label>
             <input type="email" name="email" id="email" />
+
+            <!-- Pet -->
             <label for="petType">Type of Pet</label>
             <select name="petType" id="petType">
               <option value="dog">Dog</option>
@@ -25,13 +30,16 @@
               <option value="equine">Bird</option>
               <option value="snake">Snake</option>
             </select>
-            <!-- End of first fieldset-->
           </fieldset>
+
           <fieldset>
+            <!-- More Info -->
             <legend>More Info</legend>
             <label for="message">Request or Message</label>
             <textarea name="message" id="message" rows="5"></textarea>
           </fieldset>
+
+          <!-- Submit Button -->
           <input type="submit" name="submit" id="submit" value="Send Message" />
         </form>
       </main>
