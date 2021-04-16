@@ -8,31 +8,69 @@
     <title>Pet Contact Form</title>
   </head>
   <body>
+    <header><h1>Pet Inquiry Form</h1></header>
     <div class="container">
-      <header><h1>Pet Inquiry Form</h1></header>
       <main>
         <form action="" method="POST">
           <fieldset>
             <legend>About Your Pet</legend>
-            <label for="fullName">Owner's Full Name</label>
-            <input type="text" name="fullName" id="fullName" />
-            <label for="email">Email Address</label>
-            <input type="email" name="email" id="email" />
-            <label for="petType">Type of Pet</label>
-            <select name="petType" id="petType">
-              <option value="dog">Dog</option>
-              <option value="cat">Cat</option>
-              <option value="equine">Bird</option>
-              <option value="snake">Snake</option>
-            </select>
-            <!-- End of first fieldset-->
+            <!-- Name -->
+            <div class="row">
+              <div class="col-25">
+                <label for="fullName">Owner's Full Name</label>
+              </div>
+              <div class="col-75">
+                <input type="text" name="fullName" id="fullName" />
+              </div>
+            </div>
+
+            <!-- Email -->
+            <div class="row">
+              <div class="col-25">
+                <label for="email">Email Address</label>
+              </div>
+              <div class="col-75">
+                <input type="text" name="email" id="email" />
+              </div>
+            </div>
+
+            <!-- Pet -->
+            <div class="row">
+              <div class="col-25">
+                <label for="petType">Type of Pet</label>
+              </div>
+              <div class="col-75">
+                <select name="petType" id="petType">
+                  <option value="dog">Dog</option>
+                  <option value="cat">Cat</option>
+                  <option value="equine">Bird</option>
+                  <option value="snake">Snake</option>
+                </select>
+              </div>
+            </div>
           </fieldset>
+
+          <br />
+
           <fieldset>
+            <!-- More Info -->
             <legend>More Info</legend>
-            <label for="message">Request or Message</label>
-            <textarea name="message" id="message" rows="5"></textarea>
+            <div class="row">
+              <label for="message">Request or Message</label>
+              <textarea name="message" id="message" rows="5"></textarea>
+            </div>
           </fieldset>
-          <input type="submit" name="submit" id="submit" value="Send Message" />
+
+          <!-- Submit Button -->
+          <br />
+          <div class="row">
+            <input
+              type="submit"
+              name="submit"
+              id="submit"
+              value="Send Message"
+            />
+          </div>
         </form>
       </main>
       <footer></footer>
