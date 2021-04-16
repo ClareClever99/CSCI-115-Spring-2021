@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/vet.css" />
+    <title>Pet Contact Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <header><h1>Pet Inquiry Form</h1></header>
+      <main>
+        <form action="" method="POST">
+          <fieldset>
+            <legend>About Your Pet</legend>
+            <label for="fullName">Owner's Full Name</label>
+            <input type="text" name="fullName" id="fullName" />
+            <label for="email">Email Address</label>
+            <input type="email" name="email" id="email" />
+            <label for="petType">Type of Pet</label>
+            <select name="petType" id="petType">
+              <option value="dog">Dog</option>
+              <option value="cat">Cat</option>
+              <option value="equine">Bird</option>
+              <option value="snake">Snake</option>
+            </select>
+            <!-- End of first fieldset-->
+          </fieldset>
+          <fieldset>
+            <legend>More Info</legend>
+            <label for="message">Request or Message</label>
+            <textarea name="message" id="message" rows="5"></textarea>
+          </fieldset>
+          <input type="submit" name="submit" id="submit" value="Send Message" />
+        </form>
+      </main>
+      <footer></footer>
+    </div>
+  </body>
+</html>
